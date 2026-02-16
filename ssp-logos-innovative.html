@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSP Innovative Logo Collection — SSPCS Solutions</title>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #0e1a2b; color: #fff; min-height: 100vh;
+        }
+        header { text-align: center; padding: 3rem 2rem 1rem; }
+        header h1 { font-size: 2rem; font-weight: 700; letter-spacing: 1px; }
+        header p { color: rgba(255,255,255,0.5); margin-top: 0.5rem; max-width: 520px; margin-inline: auto; }
+        .grid {
+            max-width: 1200px; margin: 2rem auto; padding: 0 2rem 4rem;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 2rem;
+        }
+        .card {
+            border-radius: 16px; overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 20px 50px rgba(0,0,0,0.3); }
+        .preview {
+            display: flex; align-items: center; justify-content: center;
+            padding: 2.5rem 2rem; min-height: 300px;
+        }
+        .preview svg { max-width: 330px; width: 100%; height: auto; }
+        .card-info {
+            padding: 1.25rem 1.5rem; background: rgba(255,255,255,0.04);
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+        .card-info h3 { font-size: 1rem; margin-bottom: 0.3rem; }
+        .card-info p { font-size: 0.85rem; color: rgba(255,255,255,0.45); line-height: 1.5; }
+        .tags { display: flex; gap: 0.4rem; margin-top: 0.5rem; flex-wrap: wrap; }
+        .tag {
+            display: inline-block; font-size: 0.7rem; padding: 0.2rem 0.6rem;
+            border-radius: 20px; font-weight: 600; letter-spacing: 0.5px;
+        }
+        .tag-gold { background: rgba(232,168,56,0.15); color: #e8a838; }
+        .tag-blue { background: rgba(46,134,222,0.15); color: #5ba4e6; }
+        .tag-white { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.6); }
+        .tag-green { background: rgba(39,174,96,0.15); color: #6ddb9e; }
+        .tag-purple { background: rgba(155,89,222,0.15); color: #c4a0f0; }
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SSP — Innovative Logo Concepts</h1>
+    <p>15 cutting-edge designs using negative space, geometry, abstraction, and creative techniques</p>
+</header>
+
+<div class="grid">
+
+    <!-- ═══ 1. NEGATIVE SPACE BLOCKS ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 350 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i1navy" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#1a3a5c"/>
+                    </linearGradient>
+                    <mask id="i1mask">
+                        <rect x="40" y="30" width="270" height="130" fill="white"/>
+                        <text x="175" y="120" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="100" font-weight="900" fill="black" letter-spacing="8">SSP</text>
+                    </mask>
+                </defs>
+                <!-- Navy block with SSP cut out (negative space) -->
+                <rect x="40" y="30" width="270" height="130" rx="8" fill="url(#i1navy)" mask="url(#i1mask)"/>
+                <!-- Thin gold border around cutout letters for definition -->
+                <text x="175" y="120" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="100" font-weight="900" fill="none" stroke="#e8a838" stroke-width="1.5" letter-spacing="8">SSP</text>
+                <!-- Gold accent bar -->
+                <rect x="40" y="164" width="270" height="3" rx="1.5" fill="#e8a838"/>
+                <!-- Text -->
+                <text x="175" y="190" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0a1628" letter-spacing="7">SOLUTIONS</text>
+                <text x="175" y="208" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>1. Negative Space Cutout</h3>
+            <p>SSP carved out of a solid navy block — the letters are the absence, bold and striking.</p>
+            <div class="tags"><span class="tag tag-gold">INNOVATIVE</span><span class="tag tag-white">MINIMAL</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 2. CONSTELLATION ═══ -->
+    <div class="card">
+        <div class="preview" style="background: radial-gradient(ellipse at center, #0f1e35, #060d18);">
+            <svg viewBox="0 0 350 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i2gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- Background stars -->
+                <circle cx="45" cy="40" r="1" fill="white" opacity="0.3"/>
+                <circle cx="300" cy="30" r="1.2" fill="white" opacity="0.25"/>
+                <circle cx="320" cy="140" r="0.8" fill="white" opacity="0.2"/>
+                <circle cx="30" cy="160" r="1" fill="white" opacity="0.15"/>
+                <circle cx="180" cy="25" r="0.8" fill="white" opacity="0.2"/>
+                <circle cx="280" cy="190" r="1" fill="white" opacity="0.15"/>
+
+                <!-- S1 constellation points & lines -->
+                <circle cx="55" cy="55" r="3" fill="#e8a838"/>
+                <circle cx="85" cy="45" r="2.5" fill="#e8a838" opacity="0.8"/>
+                <circle cx="65" cy="85" r="2" fill="#e8a838" opacity="0.7"/>
+                <circle cx="90" cy="95" r="2.5" fill="#e8a838" opacity="0.8"/>
+                <circle cx="60" cy="120" r="3" fill="#e8a838"/>
+                <circle cx="88" cy="130" r="2.5" fill="#e8a838" opacity="0.8"/>
+                <line x1="55" y1="55" x2="85" y2="45" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="85" y1="45" x2="65" y2="85" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="65" y1="85" x2="90" y2="95" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="90" y1="95" x2="60" y2="120" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="60" y1="120" x2="88" y2="130" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+
+                <!-- S2 constellation -->
+                <circle cx="125" cy="55" r="3" fill="#e8a838"/>
+                <circle cx="155" cy="45" r="2.5" fill="#e8a838" opacity="0.8"/>
+                <circle cx="135" cy="85" r="2" fill="#e8a838" opacity="0.7"/>
+                <circle cx="160" cy="95" r="2.5" fill="#e8a838" opacity="0.8"/>
+                <circle cx="130" cy="120" r="3" fill="#e8a838"/>
+                <circle cx="158" cy="130" r="2.5" fill="#e8a838" opacity="0.8"/>
+                <line x1="125" y1="55" x2="155" y2="45" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="155" y1="45" x2="135" y2="85" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="135" y1="85" x2="160" y2="95" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="160" y1="95" x2="130" y2="120" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="130" y1="120" x2="158" y2="130" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+
+                <!-- P constellation -->
+                <circle cx="200" cy="45" r="3" fill="#e8a838"/>
+                <circle cx="200" cy="130" r="3" fill="#e8a838"/>
+                <circle cx="200" cy="85" r="2" fill="#e8a838" opacity="0.7"/>
+                <circle cx="235" cy="52" r="2.5" fill="#e8a838" opacity="0.8"/>
+                <circle cx="242" cy="72" r="2.5" fill="#e8a838" opacity="0.8"/>
+                <circle cx="230" cy="90" r="2.5" fill="#e8a838" opacity="0.8"/>
+                <line x1="200" y1="45" x2="200" y2="130" stroke="#e8a838" stroke-width="0.8" opacity="0.4"/>
+                <line x1="200" y1="45" x2="235" y2="52" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="235" y1="52" x2="242" y2="72" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="242" y1="72" x2="230" y2="90" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+                <line x1="230" y1="90" x2="200" y2="85" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+
+                <!-- Glow on key stars -->
+                <circle cx="55" cy="55" r="8" fill="#e8a838" opacity="0.06"/>
+                <circle cx="125" cy="55" r="8" fill="#e8a838" opacity="0.06"/>
+                <circle cx="200" cy="45" r="8" fill="#e8a838" opacity="0.06"/>
+
+                <!-- Text -->
+                <text x="175" y="170" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#e8a838" letter-spacing="6">SSP SOLUTIONS</text>
+                <text x="175" y="188" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.3)" letter-spacing="3">WRITTEN IN THE STARS</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>2. Constellation</h3>
+            <p>SSP formed by connected stars on a night sky — destiny, aspiration, and a mapped future.</p>
+            <div class="tags"><span class="tag tag-purple">CELESTIAL</span><span class="tag tag-blue">INNOVATIVE</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 3. DNA HELIX ═══ -->
+    <div class="card">
+        <div class="preview" style="background: linear-gradient(180deg, #060d18, #0f1e30);">
+            <svg viewBox="0 0 350 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i3gold" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#f0c060"/>
+                        <stop offset="100%" stop-color="#e8a838"/>
+                    </linearGradient>
+                </defs>
+                <!-- DNA Helix strands -->
+                <path d="M260 15 Q290 50 260 85 Q230 120 260 155 Q290 190 260 225"
+                      fill="none" stroke="#2e86de" stroke-width="2.5" opacity="0.5"/>
+                <path d="M300 15 Q270 50 300 85 Q330 120 300 155 Q270 190 300 225"
+                      fill="none" stroke="#e8a838" stroke-width="2.5" opacity="0.5"/>
+                <!-- Cross rungs -->
+                <line x1="262" y1="30" x2="298" y2="30" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+                <line x1="248" y1="50" x2="312" y2="50" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+                <line x1="260" y1="70" x2="300" y2="70" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+                <line x1="270" y1="90" x2="290" y2="90" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+                <line x1="248" y1="110" x2="312" y2="110" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+                <line x1="262" y1="130" x2="298" y2="130" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+                <line x1="250" y1="150" x2="310" y2="150" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+                <line x1="265" y1="170" x2="295" y2="170" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+                <line x1="248" y1="190" x2="312" y2="190" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+                <!-- Rung dots -->
+                <circle cx="262" cy="30" r="2.5" fill="#2e86de" opacity="0.6"/>
+                <circle cx="298" cy="30" r="2.5" fill="#e8a838" opacity="0.6"/>
+                <circle cx="260" cy="70" r="2.5" fill="#2e86de" opacity="0.6"/>
+                <circle cx="300" cy="70" r="2.5" fill="#e8a838" opacity="0.6"/>
+                <circle cx="262" cy="130" r="2.5" fill="#2e86de" opacity="0.6"/>
+                <circle cx="298" cy="130" r="2.5" fill="#e8a838" opacity="0.6"/>
+                <!-- SSP bold left -->
+                <text x="30" y="125" font-family="'Segoe UI',system-ui,sans-serif" font-size="72" font-weight="900" fill="url(#i3gold)" letter-spacing="1">SSP</text>
+                <rect x="30" y="135" width="150" height="2.5" rx="1.25" fill="#2e86de" opacity="0.4"/>
+                <!-- Text -->
+                <text x="105" y="168" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#e8a838" letter-spacing="6">SOLUTIONS</text>
+                <text x="105" y="186" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.3)" letter-spacing="3">CAREER EVOLUTION</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>3. DNA Helix</h3>
+            <p>SSP alongside a double helix — career is in your DNA, evolve and transform.</p>
+            <div class="tags"><span class="tag tag-green">BIOTECH</span><span class="tag tag-gold">EVOLUTION</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 4. FINGERPRINT ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #0a1628;">
+            <svg viewBox="0 0 350 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i4gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <clipPath id="i4clip">
+                        <ellipse cx="175" cy="95" rx="90" ry="80"/>
+                    </clipPath>
+                </defs>
+                <!-- Fingerprint ridges -->
+                <g clip-path="url(#i4clip)" opacity="0.35">
+                    <ellipse cx="175" cy="95" rx="15" ry="12" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                    <ellipse cx="175" cy="95" rx="25" ry="22" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                    <ellipse cx="175" cy="95" rx="36" ry="32" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                    <ellipse cx="175" cy="95" rx="47" ry="42" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                    <ellipse cx="175" cy="95" rx="58" ry="52" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                    <ellipse cx="175" cy="95" rx="69" ry="62" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                    <ellipse cx="175" cy="95" rx="80" ry="72" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                    <ellipse cx="175" cy="98" rx="90" ry="82" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                </g>
+                <!-- SSP punched through center -->
+                <text x="175" y="110" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="52" font-weight="900" fill="url(#i4gold)" letter-spacing="4">SSP</text>
+                <!-- Outer glow ring -->
+                <ellipse cx="175" cy="95" rx="90" ry="80" fill="none" stroke="rgba(232,168,56,0.15)" stroke-width="1.5"/>
+                <!-- Text -->
+                <text x="175" y="200" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#e8a838" letter-spacing="6">SOLUTIONS</text>
+                <text x="175" y="218" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.3)" letter-spacing="3">UNIQUELY YOU</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>4. Fingerprint Identity</h3>
+            <p>SSP emerging from fingerprint ridges — every career path is unique to you.</p>
+            <div class="tags"><span class="tag tag-gold">IDENTITY</span><span class="tag tag-purple">UNIQUE</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 5. NEURAL NETWORK ═══ -->
+    <div class="card">
+        <div class="preview" style="background: radial-gradient(ellipse at 40% 50%, #101e35, #080e1a);">
+            <svg viewBox="0 0 350 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i5gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- Neural connection lines -->
+                <line x1="40" y1="60" x2="110" y2="40" stroke="#2e86de" stroke-width="0.7" opacity="0.3"/>
+                <line x1="40" y1="60" x2="100" y2="100" stroke="#2e86de" stroke-width="0.7" opacity="0.25"/>
+                <line x1="110" y1="40" x2="195" y2="55" stroke="#2e86de" stroke-width="0.7" opacity="0.3"/>
+                <line x1="100" y1="100" x2="195" y2="55" stroke="#2e86de" stroke-width="0.7" opacity="0.2"/>
+                <line x1="100" y1="100" x2="175" y2="120" stroke="#e8a838" stroke-width="0.7" opacity="0.3"/>
+                <line x1="195" y1="55" x2="280" y2="45" stroke="#2e86de" stroke-width="0.7" opacity="0.25"/>
+                <line x1="195" y1="55" x2="270" y2="100" stroke="#e8a838" stroke-width="0.7" opacity="0.3"/>
+                <line x1="175" y1="120" x2="270" y2="100" stroke="#e8a838" stroke-width="0.7" opacity="0.25"/>
+                <line x1="270" y1="100" x2="320" y2="60" stroke="#2e86de" stroke-width="0.7" opacity="0.2"/>
+                <line x1="270" y1="100" x2="310" y2="140" stroke="#e8a838" stroke-width="0.7" opacity="0.25"/>
+                <line x1="175" y1="120" x2="120" y2="155" stroke="#2e86de" stroke-width="0.7" opacity="0.2"/>
+                <line x1="175" y1="120" x2="240" y2="155" stroke="#e8a838" stroke-width="0.7" opacity="0.2"/>
+                <line x1="40" y1="145" x2="120" y2="155" stroke="#2e86de" stroke-width="0.7" opacity="0.2"/>
+                <line x1="120" y1="155" x2="240" y2="155" stroke="#2e86de" stroke-width="0.7" opacity="0.15"/>
+                <!-- Neural nodes -->
+                <circle cx="40" cy="60" r="5" fill="#1a3a5c" stroke="#2e86de" stroke-width="1.5"/>
+                <circle cx="110" cy="40" r="4" fill="#1a3a5c" stroke="#2e86de" stroke-width="1"/>
+                <circle cx="100" cy="100" r="4.5" fill="#1a3a5c" stroke="#2e86de" stroke-width="1"/>
+                <circle cx="195" cy="55" r="6" fill="#1a3050" stroke="#e8a838" stroke-width="1.5"/>
+                <circle cx="280" cy="45" r="4" fill="#1a3a5c" stroke="#2e86de" stroke-width="1"/>
+                <circle cx="175" cy="120" r="7" fill="#1a3050" stroke="#e8a838" stroke-width="2"/>
+                <circle cx="270" cy="100" r="5" fill="#1a3050" stroke="#e8a838" stroke-width="1.5"/>
+                <circle cx="320" cy="60" r="3.5" fill="#1a3a5c" stroke="#2e86de" stroke-width="1"/>
+                <circle cx="310" cy="140" r="4" fill="#1a3a5c" stroke="#2e86de" stroke-width="1"/>
+                <circle cx="40" cy="145" r="3.5" fill="#1a3a5c" stroke="#2e86de" stroke-width="1"/>
+                <circle cx="120" cy="155" r="4" fill="#1a3a5c" stroke="#2e86de" stroke-width="1"/>
+                <circle cx="240" cy="155" r="4.5" fill="#1a3a5c" stroke="#2e86de" stroke-width="1"/>
+                <!-- Pulse rings on key nodes -->
+                <circle cx="175" cy="120" r="14" fill="none" stroke="#e8a838" stroke-width="0.5" opacity="0.2"/>
+                <circle cx="195" cy="55" r="12" fill="none" stroke="#e8a838" stroke-width="0.5" opacity="0.15"/>
+                <!-- SSP overlaid -->
+                <text x="175" y="110" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="60" font-weight="900" fill="url(#i5gold)" letter-spacing="3" opacity="0.9">SSP</text>
+                <!-- Text -->
+                <text x="175" y="195" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#e8a838" letter-spacing="6">SOLUTIONS</text>
+                <text x="175" y="213" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.3)" letter-spacing="3">CONNECTED CAREERS</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>5. Neural Network</h3>
+            <p>SSP within a web of connected nodes — intelligent, data-driven career strategy.</p>
+            <div class="tags"><span class="tag tag-blue">AI-INSPIRED</span><span class="tag tag-green">TECH</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 6. INFINITY LOOP ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 350 230" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i6navy" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="50%" stop-color="#1a3a5c"/>
+                        <stop offset="100%" stop-color="#0a1628"/>
+                    </linearGradient>
+                    <linearGradient id="i6gold" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#d49a2e"/>
+                        <stop offset="50%" stop-color="#f0c060"/>
+                        <stop offset="100%" stop-color="#d49a2e"/>
+                    </linearGradient>
+                </defs>
+                <!-- Infinity loop — thick -->
+                <path d="M175 90 C175 50 115 30 85 70 C55 110 115 140 175 90 C235 40 295 70 265 110 C235 150 175 130 175 90Z"
+                      fill="none" stroke="url(#i6navy)" stroke-width="8" stroke-linecap="round"/>
+                <!-- Thinner gold infinity on top -->
+                <path d="M175 90 C175 55 120 38 90 70 C60 102 120 132 175 90 C230 48 290 75 260 108 C230 141 175 125 175 90Z"
+                      fill="none" stroke="url(#i6gold)" stroke-width="3" stroke-linecap="round"/>
+                <!-- SSP at the crossover point -->
+                <rect x="140" y="72" width="70" height="38" rx="6" fill="#0a1628"/>
+                <text x="175" y="99" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="28" font-weight="900" fill="#e8a838" letter-spacing="3">SSP</text>
+                <!-- Text -->
+                <text x="175" y="168" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a1628" letter-spacing="6">SOLUTIONS</text>
+                <rect x="115" y="175" width="120" height="2" rx="1" fill="#e8a838" opacity="0.5"/>
+                <text x="175" y="196" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#6b7b8d" letter-spacing="3">LIMITLESS CAREERS</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>6. Infinity Loop</h3>
+            <p>SSP at the crossover of an infinity symbol — limitless potential and continuous growth.</p>
+            <div class="tags"><span class="tag tag-gold">LIMITLESS</span><span class="tag tag-white">CONCEPTUAL</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 7. MAZE ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #f4f6f9;">
+            <svg viewBox="0 0 350 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i7gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#d49a2e"/>
+                    </linearGradient>
+                </defs>
+                <!-- Maze walls -->
+                <rect x="50" y="30" width="250" height="150" rx="4" fill="none" stroke="#0a1628" stroke-width="2" opacity="0.15"/>
+                <!-- Horizontal walls -->
+                <line x1="50" y1="62" x2="150" y2="62" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="110" y1="92" x2="230" y2="92" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="170" y1="62" x2="250" y2="62" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="80" y1="122" x2="180" y2="122" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="200" y1="122" x2="300" y2="122" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="50" y1="150" x2="130" y2="150" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="220" y1="150" x2="300" y2="150" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <!-- Vertical walls -->
+                <line x1="110" y1="30" x2="110" y2="62" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="200" y1="62" x2="200" y2="92" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="140" y1="92" x2="140" y2="122" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="250" y1="30" x2="250" y2="62" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="80" y1="122" x2="80" y2="150" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <line x1="260" y1="92" x2="260" y2="150" stroke="#0a1628" stroke-width="1.5" opacity="0.12"/>
+                <!-- Solution path (gold line) -->
+                <path d="M50 45 L100 45 L100 78 L125 78 L125 108 L165 108 L165 138 L190 138 L190 108 L220 108 L220 78 L275 78 L275 45 L300 45"
+                      fill="none" stroke="url(#i7gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+                <!-- Entry/exit dots -->
+                <circle cx="50" cy="45" r="5" fill="#e8a838"/>
+                <circle cx="300" cy="45" r="5" fill="#27ae60"/>
+                <!-- SSP large overlay -->
+                <text x="175" y="118" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="58" font-weight="900" fill="#0a1628" letter-spacing="3" opacity="0.85">SSP</text>
+                <!-- Text -->
+                <text x="175" y="202" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a1628" letter-spacing="6">SOLUTIONS</text>
+                <text x="175" y="220" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#6b7b8d" letter-spacing="3">WE FIND THE WAY</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>7. Maze Navigator</h3>
+            <p>SSP overlaid on a maze with a golden solution path — navigating career complexity.</p>
+            <div class="tags"><span class="tag tag-green">STRATEGIC</span><span class="tag tag-gold">CLEVER</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 8. ORIGAMI FOLD ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 350 230" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i8a" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#152a45"/>
+                    </linearGradient>
+                    <linearGradient id="i8b" x1="100%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#1a3a5c"/>
+                        <stop offset="100%" stop-color="#0f2038"/>
+                    </linearGradient>
+                    <linearGradient id="i8c" x1="0%" y1="100%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#d49a2e"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- S panel 1 — dark -->
+                <polygon points="60,40 140,40 120,90 40,90" fill="url(#i8a)"/>
+                <text x="86" y="78" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="42" font-weight="900" fill="#e8a838" opacity="0.9">S</text>
+                <!-- S panel 2 — mid -->
+                <polygon points="145,40 225,40 205,90 125,90" fill="url(#i8b)"/>
+                <text x="171" y="78" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="42" font-weight="900" fill="#e8a838">S</text>
+                <!-- P panel 3 — gold -->
+                <polygon points="230,40 310,40 290,90 210,90" fill="url(#i8c)"/>
+                <text x="256" y="78" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="42" font-weight="900" fill="#0a1628">P</text>
+                <!-- Shadow fold triangles -->
+                <polygon points="40,90 60,90 50,105" fill="#0a1628" opacity="0.08"/>
+                <polygon points="125,90 145,90 135,105" fill="#0a1628" opacity="0.08"/>
+                <polygon points="210,90 230,90 220,105" fill="#0a1628" opacity="0.08"/>
+                <!-- Fold crease lines -->
+                <line x1="40" y1="90" x2="120" y2="90" stroke="#0a1628" stroke-width="0.5" opacity="0.2"/>
+                <line x1="125" y1="90" x2="205" y2="90" stroke="#0a1628" stroke-width="0.5" opacity="0.2"/>
+                <line x1="210" y1="90" x2="290" y2="90" stroke="#0a1628" stroke-width="0.5" opacity="0.2"/>
+                <!-- Bottom reflected panels (lighter) -->
+                <polygon points="40,92 120,92 130,130 50,130" fill="url(#i8a)" opacity="0.15"/>
+                <polygon points="125,92 205,92 215,130 135,130" fill="url(#i8b)" opacity="0.15"/>
+                <polygon points="210,92 290,92 300,130 220,130" fill="url(#i8c)" opacity="0.15"/>
+                <!-- Text -->
+                <text x="175" y="165" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a1628" letter-spacing="6">SOLUTIONS</text>
+                <rect x="115" y="172" width="120" height="2" rx="1" fill="#e8a838" opacity="0.5"/>
+                <text x="175" y="192" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>8. Origami Panels</h3>
+            <p>Each letter on a folded panel with reflections — craft, precision, and dimension.</p>
+            <div class="tags"><span class="tag tag-white">3D</span><span class="tag tag-blue">CRAFT</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 9. CIRCUIT BOARD ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #050c16;">
+            <svg viewBox="0 0 350 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i9gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- Circuit traces -->
+                <path d="M30 60 L70 60 L70 40 L120 40" fill="none" stroke="#2e86de" stroke-width="1.2" opacity="0.25"/>
+                <path d="M30 100 L55 100 L55 130 L90 130" fill="none" stroke="#2e86de" stroke-width="1.2" opacity="0.2"/>
+                <path d="M260 40 L300 40 L300 70 L330 70" fill="none" stroke="#2e86de" stroke-width="1.2" opacity="0.25"/>
+                <path d="M260 130 L290 130 L290 100 L330 100" fill="none" stroke="#2e86de" stroke-width="1.2" opacity="0.2"/>
+                <path d="M120 155 L120 170 L60 170" fill="none" stroke="#2e86de" stroke-width="1.2" opacity="0.2"/>
+                <path d="M230 155 L230 170 L300 170" fill="none" stroke="#2e86de" stroke-width="1.2" opacity="0.2"/>
+                <path d="M175 30 L175 45" fill="none" stroke="#e8a838" stroke-width="1.2" opacity="0.3"/>
+                <path d="M175 155 L175 170" fill="none" stroke="#e8a838" stroke-width="1.2" opacity="0.3"/>
+                <!-- Circuit nodes -->
+                <rect x="26" y="56" width="8" height="8" rx="1" fill="#2e86de" opacity="0.3"/>
+                <rect x="26" y="96" width="8" height="8" rx="1" fill="#2e86de" opacity="0.25"/>
+                <rect x="326" y="66" width="8" height="8" rx="1" fill="#2e86de" opacity="0.3"/>
+                <rect x="326" y="96" width="8" height="8" rx="1" fill="#2e86de" opacity="0.25"/>
+                <circle cx="175" cy="30" r="3" fill="#e8a838" opacity="0.4"/>
+                <circle cx="175" cy="170" r="3" fill="#e8a838" opacity="0.4"/>
+                <rect x="56" y="166" width="8" height="8" rx="1" fill="#2e86de" opacity="0.2"/>
+                <rect x="296" y="166" width="8" height="8" rx="1" fill="#2e86de" opacity="0.2"/>
+                <!-- Central chip/IC package -->
+                <rect x="105" y="50" width="140" height="100" rx="6" fill="#0a1628" stroke="#2e86de" stroke-width="1" opacity="0.8"/>
+                <rect x="105" y="50" width="140" height="100" rx="6" fill="none" stroke="#e8a838" stroke-width="0.5" opacity="0.3"/>
+                <!-- Chip pins -->
+                <rect x="120" y="44" width="3" height="10" fill="#2e86de" opacity="0.4"/>
+                <rect x="140" y="44" width="3" height="10" fill="#2e86de" opacity="0.4"/>
+                <rect x="160" y="44" width="3" height="10" fill="#e8a838" opacity="0.4"/>
+                <rect x="195" y="44" width="3" height="10" fill="#2e86de" opacity="0.4"/>
+                <rect x="215" y="44" width="3" height="10" fill="#2e86de" opacity="0.4"/>
+                <rect x="120" y="147" width="3" height="10" fill="#2e86de" opacity="0.4"/>
+                <rect x="140" y="147" width="3" height="10" fill="#2e86de" opacity="0.4"/>
+                <rect x="160" y="147" width="3" height="10" fill="#e8a838" opacity="0.4"/>
+                <rect x="195" y="147" width="3" height="10" fill="#2e86de" opacity="0.4"/>
+                <rect x="215" y="147" width="3" height="10" fill="#2e86de" opacity="0.4"/>
+                <!-- SSP inside chip -->
+                <text x="175" y="114" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="48" font-weight="900" fill="url(#i9gold)" letter-spacing="3">SSP</text>
+                <!-- Chip label -->
+                <text x="175" y="75" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="6" fill="rgba(255,255,255,0.25)" letter-spacing="2">SSPCS-2026</text>
+                <!-- Text -->
+                <text x="175" y="200" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#e8a838" letter-spacing="6">SOLUTIONS</text>
+                <text x="175" y="218" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.3)" letter-spacing="3">SMART CAREER ENGINE</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>9. Circuit Chip</h3>
+            <p>SSP as the core of a microchip — engineered intelligence powering career decisions.</p>
+            <div class="tags"><span class="tag tag-blue">TECH</span><span class="tag tag-gold">ENGINEERED</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 10. LIQUID / MORPHING ═══ -->
+    <div class="card">
+        <div class="preview" style="background: linear-gradient(135deg, #0a1225, #152540);">
+            <svg viewBox="0 0 350 230" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i10a" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838" stop-opacity="0.7"/>
+                        <stop offset="100%" stop-color="#f0c060" stop-opacity="0.3"/>
+                    </linearGradient>
+                    <linearGradient id="i10b" x1="100%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#2e86de" stop-opacity="0.5"/>
+                        <stop offset="100%" stop-color="#2e86de" stop-opacity="0.15"/>
+                    </linearGradient>
+                    <linearGradient id="i10g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <filter id="i10blur">
+                        <feGaussianBlur stdDeviation="8"/>
+                    </filter>
+                </defs>
+                <!-- Liquid blobs behind -->
+                <ellipse cx="120" cy="85" rx="80" ry="55" fill="url(#i10a)" filter="url(#i10blur)"/>
+                <ellipse cx="230" cy="95" rx="70" ry="50" fill="url(#i10b)" filter="url(#i10blur)"/>
+                <ellipse cx="170" cy="110" rx="60" ry="40" fill="url(#i10a)" filter="url(#i10blur)" opacity="0.5"/>
+                <!-- SSP crisp on top -->
+                <text x="175" y="115" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="68" font-weight="900" fill="url(#i10g)" letter-spacing="3">SSP</text>
+                <!-- Fine underline -->
+                <rect x="105" y="125" width="140" height="1.5" rx="0.75" fill="rgba(255,255,255,0.2)"/>
+                <!-- Text -->
+                <text x="175" y="165" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#e8a838" letter-spacing="6">SOLUTIONS</text>
+                <text x="175" y="183" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.3)" letter-spacing="3">FLUID CAREER PATHS</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>10. Liquid Morph</h3>
+            <p>SSP floating over fluid gradient blobs — adaptable, organic, and ever-evolving.</p>
+            <div class="tags"><span class="tag tag-purple">ABSTRACT</span><span class="tag tag-gold">FLUID</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 11. PUZZLE PIECES ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 350 230" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i11a" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#152a45"/>
+                    </linearGradient>
+                    <linearGradient id="i11b" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#1a3a5c"/>
+                        <stop offset="100%" stop-color="#2e5a8c"/>
+                    </linearGradient>
+                    <linearGradient id="i11c" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- Puzzle piece S1 -->
+                <path d="M55 40 L130 40 L130 60 C140 55 150 65 140 72 L130 72 L130 120 L75 120 L75 100 C65 105 55 95 65 88 L75 88 L75 40 Z"
+                      fill="url(#i11a)"/>
+                <text x="97" y="92" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="38" font-weight="900" fill="#e8a838">S</text>
+                <!-- Puzzle piece S2 -->
+                <path d="M135 40 L210 40 L210 60 C220 55 230 65 220 72 L210 72 L210 120 L155 120 L155 100 C145 105 135 95 145 88 L155 88 L155 72 C145 77 135 67 145 60 L155 60 L155 40 Z"
+                      fill="url(#i11b)"/>
+                <text x="177" y="92" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="38" font-weight="900" fill="#e8a838">S</text>
+                <!-- Puzzle piece P -->
+                <path d="M215 40 L290 40 L290 88 L280 88 C285 78 275 68 268 78 L268 88 L268 120 L235 120 L235 100 C225 105 215 95 225 88 L235 88 L235 72 C225 77 215 67 225 60 L235 60 L235 40 Z"
+                      fill="url(#i11c)"/>
+                <text x="258" y="92" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="38" font-weight="900" fill="#0a1628">P</text>
+                <!-- Text -->
+                <text x="175" y="158" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a1628" letter-spacing="6">SOLUTIONS</text>
+                <text x="175" y="178" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#6b7b8d" letter-spacing="3">EVERY PIECE MATTERS</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>11. Puzzle Fit</h3>
+            <p>Each letter is an interlocking puzzle piece — the right fit for your career.</p>
+            <div class="tags"><span class="tag tag-green">FIT</span><span class="tag tag-white">CREATIVE</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 12. SOUND WAVE ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #0a1225;">
+            <svg viewBox="0 0 350 230" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i12gold" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#2e86de"/>
+                        <stop offset="40%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- Waveform bars -->
+                <g opacity="0.35">
+                    <rect x="30" y="85" width="4" height="30" rx="2" fill="#2e86de"/>
+                    <rect x="40" y="70" width="4" height="60" rx="2" fill="#2e86de"/>
+                    <rect x="50" y="80" width="4" height="40" rx="2" fill="#2e86de"/>
+                    <rect x="60" y="60" width="4" height="80" rx="2" fill="#2e86de"/>
+                    <rect x="70" y="75" width="4" height="50" rx="2" fill="#2e86de"/>
+                    <rect x="80" y="55" width="4" height="90" rx="2" fill="#2e86de"/>
+                    <rect x="90" y="68" width="4" height="64" rx="2" fill="#e8a838" opacity="0.8"/>
+                </g>
+                <g opacity="0.35">
+                    <rect x="266" y="68" width="4" height="64" rx="2" fill="#e8a838" opacity="0.8"/>
+                    <rect x="276" y="55" width="4" height="90" rx="2" fill="#e8a838"/>
+                    <rect x="286" y="75" width="4" height="50" rx="2" fill="#e8a838"/>
+                    <rect x="296" y="60" width="4" height="80" rx="2" fill="#e8a838"/>
+                    <rect x="306" y="80" width="4" height="40" rx="2" fill="#e8a838"/>
+                    <rect x="316" y="70" width="4" height="60" rx="2" fill="#e8a838"/>
+                    <rect x="326" y="85" width="4" height="30" rx="2" fill="#e8a838"/>
+                </g>
+                <!-- SSP center -->
+                <text x="175" y="115" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="62" font-weight="900" fill="url(#i12gold)" letter-spacing="4">SSP</text>
+                <!-- Center wave pulse -->
+                <line x1="105" y1="100" x2="245" y2="100" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+                <!-- Text -->
+                <text x="175" y="165" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#e8a838" letter-spacing="6">SOLUTIONS</text>
+                <text x="175" y="183" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.3)" letter-spacing="3">YOUR VOICE, YOUR CAREER</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>12. Sound Wave</h3>
+            <p>SSP flanked by audio waveforms — amplifying your career voice and presence.</p>
+            <div class="tags"><span class="tag tag-blue">AUDIO</span><span class="tag tag-gold">AMPLIFY</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 13. MOLECULAR ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #0c1520;">
+            <svg viewBox="0 0 350 230" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i13gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- Molecular bonds -->
+                <line x1="85" y1="85" x2="170" y2="65" stroke="#e8a838" stroke-width="2" opacity="0.25"/>
+                <line x1="170" y1="65" x2="265" y2="85" stroke="#e8a838" stroke-width="2" opacity="0.25"/>
+                <line x1="85" y1="85" x2="40" y2="55" stroke="#2e86de" stroke-width="1.5" opacity="0.2"/>
+                <line x1="85" y1="85" x2="55" y2="130" stroke="#2e86de" stroke-width="1.5" opacity="0.2"/>
+                <line x1="265" y1="85" x2="310" y2="55" stroke="#2e86de" stroke-width="1.5" opacity="0.2"/>
+                <line x1="265" y1="85" x2="295" y2="130" stroke="#2e86de" stroke-width="1.5" opacity="0.2"/>
+                <line x1="170" y1="65" x2="170" y2="30" stroke="#2e86de" stroke-width="1.5" opacity="0.2"/>
+                <!-- Outer atoms -->
+                <circle cx="40" cy="55" r="8" fill="#0f1e30" stroke="#2e86de" stroke-width="1.5" opacity="0.5"/>
+                <circle cx="55" cy="130" r="8" fill="#0f1e30" stroke="#2e86de" stroke-width="1.5" opacity="0.5"/>
+                <circle cx="310" cy="55" r="8" fill="#0f1e30" stroke="#2e86de" stroke-width="1.5" opacity="0.5"/>
+                <circle cx="295" cy="130" r="8" fill="#0f1e30" stroke="#2e86de" stroke-width="1.5" opacity="0.5"/>
+                <circle cx="170" cy="30" r="8" fill="#0f1e30" stroke="#2e86de" stroke-width="1.5" opacity="0.5"/>
+                <!-- Core atoms (SSP) -->
+                <circle cx="85" cy="85" r="28" fill="#0f1e30" stroke="#e8a838" stroke-width="2"/>
+                <circle cx="85" cy="85" r="22" fill="none" stroke="#e8a838" stroke-width="0.5" opacity="0.3"/>
+                <text x="85" y="93" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="26" font-weight="900" fill="url(#i13gold)">S</text>
+
+                <circle cx="170" cy="65" r="28" fill="#0f1e30" stroke="#e8a838" stroke-width="2"/>
+                <circle cx="170" cy="65" r="22" fill="none" stroke="#e8a838" stroke-width="0.5" opacity="0.3"/>
+                <text x="170" y="73" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="26" font-weight="900" fill="url(#i13gold)">S</text>
+
+                <circle cx="265" cy="85" r="28" fill="#0f1e30" stroke="#e8a838" stroke-width="2"/>
+                <circle cx="265" cy="85" r="22" fill="none" stroke="#e8a838" stroke-width="0.5" opacity="0.3"/>
+                <text x="265" y="93" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="26" font-weight="900" fill="url(#i13gold)">P</text>
+                <!-- Text -->
+                <text x="175" y="180" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#e8a838" letter-spacing="6">SOLUTIONS</text>
+                <text x="175" y="198" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.3)" letter-spacing="3">CHEMISTRY OF SUCCESS</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>13. Molecular Bond</h3>
+            <p>Each letter as an atom in a molecule — the chemistry of a perfect career match.</p>
+            <div class="tags"><span class="tag tag-green">SCIENCE</span><span class="tag tag-purple">BONDED</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 14. BARCODE / DATA ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 350 230" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i14gold" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#d49a2e"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- Barcode lines -->
+                <g fill="#0a1628">
+                    <rect x="50" y="35" width="3" height="100" opacity="0.8"/>
+                    <rect x="56" y="35" width="1.5" height="100" opacity="0.5"/>
+                    <rect x="61" y="35" width="4" height="100" opacity="0.9"/>
+                    <rect x="68" y="35" width="2" height="100" opacity="0.6"/>
+                    <rect x="73" y="35" width="1.5" height="100" opacity="0.4"/>
+                    <rect x="78" y="35" width="5" height="100" opacity="0.85"/>
+                    <rect x="86" y="35" width="2" height="100" opacity="0.5"/>
+                    <rect x="92" y="35" width="3" height="100" opacity="0.7"/>
+                    <rect x="98" y="35" width="1.5" height="100" opacity="0.4"/>
+                    <rect x="104" y="35" width="4" height="100" opacity="0.9"/>
+                    <rect x="112" y="35" width="2" height="100" opacity="0.6"/>
+                    <rect x="118" y="35" width="1.5" height="100" opacity="0.3"/>
+                    <rect x="124" y="35" width="5" height="100" opacity="0.85"/>
+                    <rect x="133" y="35" width="2" height="100" opacity="0.5"/>
+                    <rect x="140" y="35" width="3" height="100" opacity="0.7"/>
+                    <rect x="148" y="35" width="1.5" height="100" opacity="0.4"/>
+                    <rect x="154" y="35" width="4" height="100" opacity="0.8"/>
+                    <rect x="163" y="35" width="2" height="100" opacity="0.5"/>
+                    <rect x="170" y="35" width="5" height="100" opacity="0.9"/>
+                    <rect x="180" y="35" width="2" height="100" opacity="0.6"/>
+                    <rect x="186" y="35" width="1.5" height="100" opacity="0.3"/>
+                    <rect x="192" y="35" width="3" height="100" opacity="0.7"/>
+                    <rect x="200" y="35" width="4" height="100" opacity="0.85"/>
+                    <rect x="208" y="35" width="2" height="100" opacity="0.5"/>
+                    <rect x="215" y="35" width="1.5" height="100" opacity="0.4"/>
+                    <rect x="221" y="35" width="5" height="100" opacity="0.9"/>
+                    <rect x="230" y="35" width="3" height="100" opacity="0.7"/>
+                    <rect x="237" y="35" width="2" height="100" opacity="0.5"/>
+                    <rect x="244" y="35" width="4" height="100" opacity="0.85"/>
+                    <rect x="252" y="35" width="1.5" height="100" opacity="0.4"/>
+                    <rect x="258" y="35" width="3" height="100" opacity="0.7"/>
+                    <rect x="265" y="35" width="5" height="100" opacity="0.9"/>
+                    <rect x="274" y="35" width="2" height="100" opacity="0.6"/>
+                    <rect x="280" y="35" width="1.5" height="100" opacity="0.3"/>
+                    <rect x="286" y="35" width="4" height="100" opacity="0.8"/>
+                    <rect x="294" y="35" width="3" height="100" opacity="0.7"/>
+                </g>
+                <!-- SSP overlay (gold, cutting through barcode) -->
+                <text x="175" y="105" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="62" font-weight="900" fill="url(#i14gold)" letter-spacing="8" stroke="#ffffff" stroke-width="4" paint-order="stroke">SSP</text>
+                <!-- Scan line -->
+                <rect x="45" y="138" width="260" height="1.5" fill="#e83838" opacity="0.5"/>
+                <!-- Text -->
+                <text x="175" y="170" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a1628" letter-spacing="6">SOLUTIONS</text>
+                <text x="175" y="190" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#6b7b8d" letter-spacing="3">DECODE YOUR CAREER</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>14. Barcode Scan</h3>
+            <p>SSP emerging from barcode lines with a red scan laser — data-driven, decoded identity.</p>
+            <div class="tags"><span class="tag tag-white">DATA</span><span class="tag tag-gold">DECODE</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 15. PRISM / SPECTRUM ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #0a1225;">
+            <svg viewBox="0 0 350 230" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="i15gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- Prism triangle -->
+                <polygon points="100,150 170,35 240,150" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
+                <polygon points="100,150 170,35 240,150" fill="rgba(255,255,255,0.02)"/>
+                <!-- Input beam (white) -->
+                <line x1="20" y1="90" x2="140" y2="90" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+                <!-- Spectrum beams exiting prism -->
+                <line x1="210" y1="70" x2="330" y2="40" stroke="#e84848" stroke-width="2" opacity="0.5"/>
+                <line x1="215" y1="80" x2="330" y2="60" stroke="#e8a838" stroke-width="2" opacity="0.5"/>
+                <line x1="218" y1="90" x2="330" y2="80" stroke="#e8d848" stroke-width="2" opacity="0.5"/>
+                <line x1="220" y1="100" x2="330" y2="100" stroke="#48e868" stroke-width="2" opacity="0.5"/>
+                <line x1="218" y1="110" x2="330" y2="120" stroke="#2e86de" stroke-width="2" opacity="0.5"/>
+                <line x1="215" y1="120" x2="330" y2="140" stroke="#6848e8" stroke-width="2" opacity="0.5"/>
+                <!-- SSP inside prism -->
+                <text x="170" y="118" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="40" font-weight="900" fill="url(#i15gold)" letter-spacing="2">SSP</text>
+                <!-- Glow at refraction point -->
+                <circle cx="170" cy="90" r="15" fill="rgba(255,255,255,0.04)"/>
+                <!-- Text -->
+                <text x="175" y="185" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#e8a838" letter-spacing="6">SOLUTIONS</text>
+                <text x="175" y="203" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.3)" letter-spacing="3">REVEAL YOUR SPECTRUM</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>15. Prism Spectrum</h3>
+            <p>SSP inside a prism splitting light into a spectrum — revealing your full range of talents.</p>
+            <div class="tags"><span class="tag tag-purple">SPECTRUM</span><span class="tag tag-blue">REVEAL</span></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

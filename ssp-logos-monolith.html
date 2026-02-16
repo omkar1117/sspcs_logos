@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSP Monolith Logo Variants — SSPCS Solutions</title>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #0e1a2b; color: #fff; min-height: 100vh;
+        }
+        header { text-align: center; padding: 3rem 2rem 1rem; }
+        header h1 { font-size: 2rem; font-weight: 700; letter-spacing: 1px; }
+        header p { color: rgba(255,255,255,0.5); margin-top: 0.5rem; }
+        .grid {
+            max-width: 1200px; margin: 2rem auto; padding: 0 2rem 4rem;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2rem;
+        }
+        .card {
+            border-radius: 16px; overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 20px 50px rgba(0,0,0,0.3); }
+        .preview {
+            display: flex; align-items: center; justify-content: center;
+            padding: 3rem 2rem; min-height: 280px;
+        }
+        .preview svg { max-width: 310px; width: 100%; height: auto; }
+        .card-info {
+            padding: 1.25rem 1.5rem; background: rgba(255,255,255,0.04);
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+        .card-info h3 { font-size: 1rem; margin-bottom: 0.3rem; }
+        .card-info p { font-size: 0.85rem; color: rgba(255,255,255,0.45); line-height: 1.5; }
+        .tag {
+            display: inline-block; font-size: 0.7rem; padding: 0.2rem 0.6rem;
+            border-radius: 20px; margin-top: 0.5rem; font-weight: 600; letter-spacing: 0.5px;
+        }
+        .tag-a { background: rgba(232,168,56,0.15); color: #e8a838; }
+        .tag-b { background: rgba(46,134,222,0.15); color: #5ba4e6; }
+        .tag-c { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.6); }
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SSP — Monolith Variations</h1>
+    <p>10 designs exploring the slab + layered text concept</p>
+</header>
+
+<div class="grid">
+
+    <!-- ═══ 1. ORIGINAL MONOLITH ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="m1navy" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#1a3a5c"/>
+                    </linearGradient>
+                </defs>
+                <rect x="40" y="30" width="240" height="115" rx="6" fill="url(#m1navy)"/>
+                <text x="55" y="120" font-family="'Segoe UI',system-ui,sans-serif" font-size="95" font-weight="900" fill="#1a3a5c" letter-spacing="1">SSP</text>
+                <text x="52" y="117" font-family="'Segoe UI',system-ui,sans-serif" font-size="95" font-weight="900" fill="#2e86de" opacity="0.4" letter-spacing="1">SSP</text>
+                <text x="49" y="114" font-family="'Segoe UI',system-ui,sans-serif" font-size="95" font-weight="900" fill="#e8a838" letter-spacing="1">SSP</text>
+                <rect x="40" y="148" width="240" height="4" rx="2" fill="#e8a838"/>
+                <text x="160" y="175" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0a1628" letter-spacing="7">SOLUTIONS</text>
+                <text x="160" y="190" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>1. Original Monolith</h3>
+            <p>The base design — navy slab, triple-layer SSP, gold bar divider.</p>
+            <span class="tag tag-a">ORIGINAL</span>
+        </div>
+    </div>
+
+    <!-- ═══ 2. DUAL BAR ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="m2navy" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#152a45"/>
+                    </linearGradient>
+                </defs>
+                <!-- Top gold bar -->
+                <rect x="40" y="26" width="240" height="4" rx="2" fill="#e8a838"/>
+                <!-- Slab -->
+                <rect x="40" y="32" width="240" height="110" fill="url(#m2navy)"/>
+                <!-- Bottom gold bar -->
+                <rect x="40" y="144" width="240" height="4" rx="2" fill="#e8a838"/>
+                <!-- Layers -->
+                <text x="55" y="118" font-family="'Segoe UI',system-ui,sans-serif" font-size="92" font-weight="900" fill="#1a3a5c" letter-spacing="2">SSP</text>
+                <text x="52" y="115" font-family="'Segoe UI',system-ui,sans-serif" font-size="92" font-weight="900" fill="#2e86de" opacity="0.35" letter-spacing="2">SSP</text>
+                <text x="49" y="112" font-family="'Segoe UI',system-ui,sans-serif" font-size="92" font-weight="900" fill="#e8a838" letter-spacing="2">SSP</text>
+                <!-- Text -->
+                <text x="160" y="172" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0a1628" letter-spacing="7">SOLUTIONS</text>
+                <text x="160" y="188" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>2. Dual Bar Frame</h3>
+            <p>Gold bars on top and bottom — tighter framing, sharper presence.</p>
+            <span class="tag tag-a">FRAMED</span>
+        </div>
+    </div>
+
+    <!-- ═══ 3. ANGLED SLAB ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #f4f6f9;">
+            <svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="m3navy" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#1a3a5c"/>
+                    </linearGradient>
+                </defs>
+                <!-- Angled slab -->
+                <polygon points="35,40 285,28 280,145 40,155" fill="url(#m3navy)"/>
+                <!-- Layers -->
+                <text x="54" y="118" font-family="'Segoe UI',system-ui,sans-serif" font-size="90" font-weight="900" fill="#1a3a5c" letter-spacing="2">SSP</text>
+                <text x="51" y="115" font-family="'Segoe UI',system-ui,sans-serif" font-size="90" font-weight="900" fill="#2e86de" opacity="0.35" letter-spacing="2">SSP</text>
+                <text x="48" y="112" font-family="'Segoe UI',system-ui,sans-serif" font-size="90" font-weight="900" fill="#e8a838" letter-spacing="2">SSP</text>
+                <!-- Gold bar angled -->
+                <polygon points="40,155 280,145 280,149 40,159" fill="#e8a838"/>
+                <!-- Text -->
+                <text x="160" y="180" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0a1628" letter-spacing="7">SOLUTIONS</text>
+                <text x="160" y="196" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>3. Angled Slab</h3>
+            <p>Slightly tilted block for a sense of forward momentum and energy.</p>
+            <span class="tag tag-b">DYNAMIC</span>
+        </div>
+    </div>
+
+    <!-- ═══ 4. BORDER FRAME ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg">
+                <!-- Outer frame only — no fill -->
+                <rect x="40" y="28" width="240" height="120" rx="4" fill="none" stroke="#0a1628" stroke-width="3"/>
+                <!-- Inner thin frame -->
+                <rect x="47" y="35" width="226" height="106" rx="2" fill="none" stroke="#0a1628" stroke-width="0.5" opacity="0.3"/>
+                <!-- Layers -->
+                <text x="57" y="118" font-family="'Segoe UI',system-ui,sans-serif" font-size="90" font-weight="900" fill="#d4dde8" letter-spacing="2">SSP</text>
+                <text x="54" y="115" font-family="'Segoe UI',system-ui,sans-serif" font-size="90" font-weight="900" fill="#2e86de" opacity="0.3" letter-spacing="2">SSP</text>
+                <text x="51" y="112" font-family="'Segoe UI',system-ui,sans-serif" font-size="90" font-weight="900" fill="#0a1628" letter-spacing="2">SSP</text>
+                <!-- Gold accent bar inside frame -->
+                <rect x="52" y="126" width="60" height="3" rx="1.5" fill="#e8a838"/>
+                <!-- Text -->
+                <text x="160" y="172" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0a1628" letter-spacing="7">SOLUTIONS</text>
+                <text x="160" y="188" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>4. Open Frame</h3>
+            <p>Outline-only border with navy text — lighter, more refined and airy.</p>
+            <span class="tag tag-c">REFINED</span>
+        </div>
+    </div>
+
+    <!-- ═══ 5. SPLIT TONE ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg">
+                <!-- Left half navy -->
+                <rect x="40" y="30" width="120" height="115" rx="6" ry="6" fill="#0a1628"/>
+                <!-- Right half gold -->
+                <rect x="160" y="30" width="120" height="115" rx="6" ry="6" fill="#e8a838"/>
+                <!-- Clean corners where they meet -->
+                <rect x="154" y="30" width="12" height="115" fill="#0a1628"/>
+                <rect x="160" y="30" width="6" height="115" fill="#e8a838"/>
+                <!-- Shadow layer -->
+                <text x="55" y="118" font-family="'Segoe UI',system-ui,sans-serif" font-size="90" font-weight="900" fill="#1a3a5c" letter-spacing="2">SS</text>
+                <text x="171" y="118" font-family="'Segoe UI',system-ui,sans-serif" font-size="90" font-weight="900" fill="#d49a2e" letter-spacing="2">P</text>
+                <!-- Front layer — inverted colors -->
+                <text x="52" y="114" font-family="'Segoe UI',system-ui,sans-serif" font-size="90" font-weight="900" fill="#e8a838" letter-spacing="2">SS</text>
+                <text x="168" y="114" font-family="'Segoe UI',system-ui,sans-serif" font-size="90" font-weight="900" fill="#0a1628" letter-spacing="2">P</text>
+                <!-- Divider line -->
+                <rect x="40" y="148" width="240" height="3" rx="1.5" fill="#0a1628"/>
+                <!-- Text -->
+                <text x="160" y="172" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0a1628" letter-spacing="7">SOLUTIONS</text>
+                <text x="160" y="188" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>5. Split Tone</h3>
+            <p>Two-tone slab — navy and gold halves with inverted letter colors.</p>
+            <span class="tag tag-a">CONTRAST</span>
+        </div>
+    </div>
+
+    <!-- ═══ 6. PILL SLAB ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #f4f6f9;">
+            <svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="m6navy" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#1a3a5c"/>
+                    </linearGradient>
+                </defs>
+                <!-- Rounded pill slab -->
+                <rect x="30" y="32" width="260" height="110" rx="55" fill="url(#m6navy)"/>
+                <!-- Layers -->
+                <text x="60" y="116" font-family="'Segoe UI',system-ui,sans-serif" font-size="86" font-weight="900" fill="#1a3a5c" letter-spacing="4">SSP</text>
+                <text x="57" y="113" font-family="'Segoe UI',system-ui,sans-serif" font-size="86" font-weight="900" fill="#2e86de" opacity="0.35" letter-spacing="4">SSP</text>
+                <text x="54" y="110" font-family="'Segoe UI',system-ui,sans-serif" font-size="86" font-weight="900" fill="#e8a838" letter-spacing="4">SSP</text>
+                <!-- Gold pill accent -->
+                <rect x="120" y="150" width="80" height="4" rx="2" fill="#e8a838"/>
+                <!-- Text -->
+                <text x="160" y="175" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0a1628" letter-spacing="7">SOLUTIONS</text>
+                <text x="160" y="191" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>6. Pill Slab</h3>
+            <p>Heavily rounded stadium shape — modern, approachable, and friendly.</p>
+            <span class="tag tag-b">MODERN</span>
+        </div>
+    </div>
+
+    <!-- ═══ 7. GOLD SLAB INVERT ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #0a1628;">
+            <svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="m7gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#d49a2e"/>
+                    </linearGradient>
+                </defs>
+                <!-- Gold slab instead of navy -->
+                <rect x="40" y="30" width="240" height="115" rx="6" fill="url(#m7gold)"/>
+                <!-- Layers — dark on gold -->
+                <text x="55" y="120" font-family="'Segoe UI',system-ui,sans-serif" font-size="95" font-weight="900" fill="#c48820" letter-spacing="1">SSP</text>
+                <text x="52" y="117" font-family="'Segoe UI',system-ui,sans-serif" font-size="95" font-weight="900" fill="#8b5e10" opacity="0.4" letter-spacing="1">SSP</text>
+                <text x="49" y="114" font-family="'Segoe UI',system-ui,sans-serif" font-size="95" font-weight="900" fill="#0a1628" letter-spacing="1">SSP</text>
+                <!-- Navy bar -->
+                <rect x="40" y="148" width="240" height="4" rx="2" fill="#0a1628"/>
+                <!-- Text -->
+                <text x="160" y="175" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#e8a838" letter-spacing="7">SOLUTIONS</text>
+                <text x="160" y="191" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.4)" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>7. Gold Slab Invert</h3>
+            <p>Inverted palette — gold block with navy text on dark background.</p>
+            <span class="tag tag-a">INVERTED</span>
+        </div>
+    </div>
+
+    <!-- ═══ 8. STACKED SLAB ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="m8navy" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#152a45"/>
+                    </linearGradient>
+                </defs>
+                <!-- Shadow slab (offset) -->
+                <rect x="47" y="37" width="240" height="105" rx="6" fill="#d4dde8"/>
+                <!-- Main slab -->
+                <rect x="40" y="30" width="240" height="105" rx="6" fill="url(#m8navy)"/>
+                <!-- Layers -->
+                <text x="54" y="110" font-family="'Segoe UI',system-ui,sans-serif" font-size="85" font-weight="900" fill="#1a3a5c" letter-spacing="2">SSP</text>
+                <text x="51" y="107" font-family="'Segoe UI',system-ui,sans-serif" font-size="85" font-weight="900" fill="#2e86de" opacity="0.35" letter-spacing="2">SSP</text>
+                <text x="48" y="104" font-family="'Segoe UI',system-ui,sans-serif" font-size="85" font-weight="900" fill="#e8a838" letter-spacing="2">SSP</text>
+                <!-- Three gold dots -->
+                <circle cx="140" cy="150" r="3.5" fill="#e8a838"/>
+                <circle cx="160" cy="150" r="3.5" fill="#e8a838" opacity="0.6"/>
+                <circle cx="180" cy="150" r="3.5" fill="#e8a838" opacity="0.3"/>
+                <!-- Text -->
+                <text x="160" y="175" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0a1628" letter-spacing="7">SOLUTIONS</text>
+                <text x="160" y="191" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>8. Shadow Slab</h3>
+            <p>Offset drop shadow under the block — adds physical weight and lift.</p>
+            <span class="tag tag-c">ELEVATED</span>
+        </div>
+    </div>
+
+    <!-- ═══ 9. WIDE STRIP ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 340 190" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="m9navy" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#1a3a5c"/>
+                    </linearGradient>
+                </defs>
+                <!-- Wide thin strip -->
+                <rect x="15" y="42" width="310" height="80" rx="4" fill="url(#m9navy)"/>
+                <!-- Layers — horizontal spread -->
+                <text x="30" y="105" font-family="'Segoe UI',system-ui,sans-serif" font-size="72" font-weight="900" fill="#1a3a5c" letter-spacing="18">SSP</text>
+                <text x="28" y="103" font-family="'Segoe UI',system-ui,sans-serif" font-size="72" font-weight="900" fill="#2e86de" opacity="0.35" letter-spacing="18">SSP</text>
+                <text x="26" y="101" font-family="'Segoe UI',system-ui,sans-serif" font-size="72" font-weight="900" fill="#e8a838" letter-spacing="18">SSP</text>
+                <!-- Gold bar right-aligned -->
+                <rect x="235" y="125" width="90" height="3" rx="1.5" fill="#e8a838"/>
+                <!-- Right-aligned text -->
+                <text x="325" y="148" text-anchor="end" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#0a1628" letter-spacing="5">SOLUTIONS</text>
+                <text x="325" y="163" text-anchor="end" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>9. Wide Strip</h3>
+            <p>Low-profile cinematic slab — wide, sparse, with right-aligned details.</p>
+            <span class="tag tag-b">CINEMATIC</span>
+        </div>
+    </div>
+
+    <!-- ═══ 10. DIAGONAL GOLD STRIPE ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #ffffff;">
+            <svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="m10navy" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#1a3a5c"/>
+                    </linearGradient>
+                    <clipPath id="m10clip">
+                        <rect x="40" y="30" width="240" height="115" rx="6"/>
+                    </clipPath>
+                </defs>
+                <!-- Main slab -->
+                <rect x="40" y="30" width="240" height="115" rx="6" fill="url(#m10navy)"/>
+                <!-- Diagonal gold stripe clipped to slab -->
+                <polygon points="210,30 245,30 175,145 140,145" fill="#e8a838" opacity="0.12" clip-path="url(#m10clip)"/>
+                <polygon points="250,30 265,30 195,145 180,145" fill="#e8a838" opacity="0.08" clip-path="url(#m10clip)"/>
+                <!-- Layers -->
+                <text x="55" y="120" font-family="'Segoe UI',system-ui,sans-serif" font-size="95" font-weight="900" fill="#1a3a5c" letter-spacing="1">SSP</text>
+                <text x="52" y="117" font-family="'Segoe UI',system-ui,sans-serif" font-size="95" font-weight="900" fill="#2e86de" opacity="0.4" letter-spacing="1">SSP</text>
+                <text x="49" y="114" font-family="'Segoe UI',system-ui,sans-serif" font-size="95" font-weight="900" fill="#e8a838" letter-spacing="1">SSP</text>
+                <!-- Gold bar -->
+                <rect x="40" y="148" width="240" height="4" rx="2" fill="#e8a838"/>
+                <!-- Small gold diamond -->
+                <rect x="156" y="157" width="8" height="8" rx="1" fill="#e8a838" transform="rotate(45 160 161)"/>
+                <!-- Text -->
+                <text x="160" y="182" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0a1628" letter-spacing="7">SOLUTIONS</text>
+                <text x="160" y="198" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="7.5" fill="#6b7b8d" letter-spacing="3">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>10. Diagonal Stripe</h3>
+            <p>Subtle gold diagonal stripes inside the slab — textured luxury feel.</p>
+            <span class="tag tag-a">LUXURY</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

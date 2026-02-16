@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSP Logo Designs — SSPCS Solutions</title>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #0e1a2b; color: #fff; min-height: 100vh;
+        }
+        header {
+            text-align: center; padding: 3rem 2rem 1rem;
+        }
+        header h1 { font-size: 2rem; font-weight: 700; letter-spacing: 1px; }
+        header p { color: rgba(255,255,255,0.5); margin-top: 0.5rem; }
+
+        .grid {
+            max-width: 1200px; margin: 2rem auto; padding: 0 2rem 4rem;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2rem;
+        }
+
+        .card {
+            border-radius: 16px; overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 20px 50px rgba(0,0,0,0.3); }
+
+        .preview {
+            display: flex; align-items: center; justify-content: center;
+            padding: 3rem 2rem; min-height: 240px;
+        }
+        .preview svg { max-width: 280px; width: 100%; height: auto; }
+
+        .card-info {
+            padding: 1.25rem 1.5rem; background: rgba(255,255,255,0.04);
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+        .card-info h3 { font-size: 1rem; margin-bottom: 0.3rem; }
+        .card-info p { font-size: 0.85rem; color: rgba(255,255,255,0.45); line-height: 1.5; }
+
+        .tag {
+            display: inline-block; font-size: 0.7rem; padding: 0.2rem 0.6rem;
+            border-radius: 20px; margin-top: 0.5rem; font-weight: 600; letter-spacing: 0.5px;
+        }
+        .tag-dark { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.6); }
+        .tag-light { background: rgba(232,168,56,0.15); color: #e8a838; }
+
+        /* Light bg for some cards */
+        .bg-dark { background: #0a1628; }
+        .bg-gradient { background: linear-gradient(135deg, #0a1628, #1a3a5c); }
+        .bg-light { background: #f4f6f9; }
+        .bg-white { background: #ffffff; }
+        .bg-navy-grad { background: linear-gradient(160deg, #0f2038, #1a4a6c); }
+        .bg-warm { background: linear-gradient(135deg, #1a1208, #2a1f10); }
+        .bg-slate { background: #1e293b; }
+        .bg-deep { background: linear-gradient(135deg, #060d18, #0a1628); }
+
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SSP Logo Concepts</h1>
+    <p>8 distinct logo designs for SSPCS Solutions</p>
+</header>
+
+<div class="grid">
+
+    <!-- ════════════════════════════════════════ -->
+    <!-- 1. BOLD GEOMETRIC — Shield -->
+    <!-- ════════════════════════════════════════ -->
+    <div class="card">
+        <div class="preview bg-dark">
+            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="shieldGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <linearGradient id="shieldBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#2e86de"/>
+                        <stop offset="100%" stop-color="#1a5fa8"/>
+                    </linearGradient>
+                </defs>
+                <!-- Shield shape -->
+                <path d="M150 20 L220 50 L220 120 C220 155 190 180 150 195 C110 180 80 155 80 120 L80 50 Z"
+                      fill="none" stroke="url(#shieldGold)" stroke-width="3"/>
+                <!-- Inner shield fill -->
+                <path d="M150 30 L212 56 L212 118 C212 149 185 172 150 185 C115 172 88 149 88 118 L88 56 Z"
+                      fill="rgba(232,168,56,0.06)"/>
+                <!-- SSP text -->
+                <text x="150" y="128" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="52" font-weight="800" fill="url(#shieldGold)" letter-spacing="2">SSP</text>
+                <!-- Small accent line under text -->
+                <rect x="120" y="138" width="60" height="2" rx="1" fill="url(#shieldBlue)" opacity="0.6"/>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>1. Shield Crest</h3>
+            <p>A protective shield form conveying trust, authority, and career guardianship.</p>
+            <span class="tag tag-light">PREMIUM</span>
+        </div>
+    </div>
+
+    <!-- ════════════════════════════════════════ -->
+    <!-- 2. CIRCULAR BADGE -->
+    <!-- ════════════════════════════════════════ -->
+    <div class="card">
+        <div class="preview bg-gradient">
+            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="circGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- Outer circle -->
+                <circle cx="150" cy="100" r="78" fill="none" stroke="url(#circGold)" stroke-width="2.5"/>
+                <!-- Inner circle -->
+                <circle cx="150" cy="100" r="68" fill="none" stroke="rgba(232,168,56,0.2)" stroke-width="1"/>
+                <!-- SSP text -->
+                <text x="150" y="112" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="46" font-weight="800" fill="url(#circGold)" letter-spacing="4">SSP</text>
+                <!-- Top arc text -->
+                <path id="topArc" d="M72 100 A78 78 0 0 1 228 100" fill="none"/>
+                <text font-family="'Segoe UI', system-ui, sans-serif" font-size="8.5" fill="rgba(255,255,255,0.5)" letter-spacing="4" text-transform="uppercase">
+                    <textPath href="#topArc" startOffset="50%" text-anchor="middle">CAREER SOLUTIONS</textPath>
+                </text>
+                <!-- Bottom arc text -->
+                <path id="botArc" d="M228 108 A78 78 0 0 1 72 108" fill="none"/>
+                <text font-family="'Segoe UI', system-ui, sans-serif" font-size="8.5" fill="rgba(255,255,255,0.5)" letter-spacing="4">
+                    <textPath href="#botArc" startOffset="50%" text-anchor="middle">EST. 2026</textPath>
+                </text>
+                <!-- Small diamond accents -->
+                <rect x="147" y="38" width="6" height="6" rx="1" fill="#e8a838" transform="rotate(45 150 41)"/>
+                <rect x="147" y="156" width="6" height="6" rx="1" fill="#e8a838" transform="rotate(45 150 159)"/>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>2. Circular Badge</h3>
+            <p>Classic emblem style with arc text — timeless and distinguished.</p>
+            <span class="tag tag-dark">CLASSIC</span>
+        </div>
+    </div>
+
+    <!-- ════════════════════════════════════════ -->
+    <!-- 3. STACKED MONOGRAM -->
+    <!-- ════════════════════════════════════════ -->
+    <div class="card">
+        <div class="preview bg-light">
+            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="stackNavy" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#0a1628"/>
+                        <stop offset="100%" stop-color="#1a3a5c"/>
+                    </linearGradient>
+                    <linearGradient id="stackGold" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#d49a2e"/>
+                    </linearGradient>
+                </defs>
+                <!-- Large S background -->
+                <text x="90" y="150" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="140" font-weight="900" fill="rgba(10,22,40,0.06)" letter-spacing="-5">S</text>
+                <!-- SSP stacked -->
+                <text x="108" y="82" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="26" font-weight="300" fill="url(#stackNavy)" letter-spacing="14">S S P</text>
+                <!-- Divider line -->
+                <rect x="108" y="92" width="100" height="2" fill="url(#stackGold)"/>
+                <!-- Company name -->
+                <text x="108" y="114" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="11" font-weight="600" fill="#0a1628" letter-spacing="6">SOLUTIONS</text>
+                <!-- Small subtitle -->
+                <text x="108" y="132" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="7.5" fill="#6b7b8d" letter-spacing="3.5">CAREER CONSULTING</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>3. Stacked Monogram</h3>
+            <p>Elegant spaced letters with a watermark S — refined and corporate.</p>
+            <span class="tag tag-dark">ELEGANT</span>
+        </div>
+    </div>
+
+    <!-- ════════════════════════════════════════ -->
+    <!-- 4. HEXAGONAL TECH -->
+    <!-- ════════════════════════════════════════ -->
+    <div class="card">
+        <div class="preview bg-deep">
+            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="hexGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <linearGradient id="hexBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#2e86de" stop-opacity="0.6"/>
+                        <stop offset="100%" stop-color="#1a5fa8" stop-opacity="0.3"/>
+                    </linearGradient>
+                </defs>
+                <!-- Hex outline -->
+                <polygon points="150,18 218,52 218,120 150,154 82,120 82,52"
+                         fill="none" stroke="url(#hexGold)" stroke-width="2"/>
+                <!-- Inner hex -->
+                <polygon points="150,28 210,58 210,114 150,144 90,114 90,58"
+                         fill="rgba(232,168,56,0.04)" stroke="rgba(46,134,222,0.15)" stroke-width="1"/>
+                <!-- SSP -->
+                <text x="150" y="100" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="44" font-weight="800" fill="url(#hexGold)" letter-spacing="3">SSP</text>
+                <!-- Dots at vertices -->
+                <circle cx="150" cy="18" r="3" fill="#2e86de"/>
+                <circle cx="218" cy="52" r="3" fill="#2e86de"/>
+                <circle cx="218" cy="120" r="3" fill="#2e86de"/>
+                <circle cx="150" cy="154" r="3" fill="#2e86de"/>
+                <circle cx="82" cy="120" r="3" fill="#2e86de"/>
+                <circle cx="82" cy="52" r="3" fill="#2e86de"/>
+                <!-- Subtle connection lines -->
+                <line x1="150" y1="18" x2="218" y2="120" stroke="rgba(46,134,222,0.1)" stroke-width="0.5"/>
+                <line x1="82" y1="52" x2="218" y2="52" stroke="rgba(46,134,222,0.1)" stroke-width="0.5"/>
+                <!-- Subtitle -->
+                <text x="150" y="178" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="9" fill="rgba(255,255,255,0.35)" letter-spacing="5">SSPCS SOLUTIONS</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>4. Hexagonal Tech</h3>
+            <p>Geometric hexagon with node connections — modern, tech-forward identity.</p>
+            <span class="tag tag-light">MODERN</span>
+        </div>
+    </div>
+
+    <!-- ════════════════════════════════════════ -->
+    <!-- 5. BOLD OVERLAP -->
+    <!-- ════════════════════════════════════════ -->
+    <div class="card">
+        <div class="preview bg-navy-grad">
+            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="oGold1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <linearGradient id="oGold2" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#d49a2e"/>
+                        <stop offset="100%" stop-color="#e8a838"/>
+                    </linearGradient>
+                </defs>
+                <!-- First S (back) -->
+                <text x="62" y="130" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="100" font-weight="900" fill="#2e86de" opacity="0.35">S</text>
+                <!-- Second S (middle) -->
+                <text x="102" y="130" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="100" font-weight="900" fill="url(#oGold2)" opacity="0.7">S</text>
+                <!-- P (front) -->
+                <text x="152" y="130" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="100" font-weight="900" fill="url(#oGold1)">P</text>
+                <!-- Bottom line -->
+                <rect x="65" y="145" width="170" height="2.5" rx="1.25" fill="#2e86de" opacity="0.5"/>
+                <!-- Tagline -->
+                <text x="150" y="168" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="9" fill="rgba(255,255,255,0.4)" letter-spacing="5">CAREER SOLUTIONS</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>5. Bold Overlap</h3>
+            <p>Layered letters with depth and transparency — dynamic and powerful.</p>
+            <span class="tag tag-dark">DYNAMIC</span>
+        </div>
+    </div>
+
+    <!-- ════════════════════════════════════════ -->
+    <!-- 6. MINIMAL LINE -->
+    <!-- ════════════════════════════════════════ -->
+    <div class="card">
+        <div class="preview bg-white">
+            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                <!-- Top thin line -->
+                <rect x="75" y="55" width="150" height="1" fill="#0a1628" opacity="0.15"/>
+                <!-- SSP ultralight -->
+                <text x="150" y="115" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="60" font-weight="200" fill="#0a1628" letter-spacing="18">SSP</text>
+                <!-- Bottom thin line -->
+                <rect x="75" y="125" width="150" height="1" fill="#0a1628" opacity="0.15"/>
+                <!-- Gold accent dot -->
+                <circle cx="150" cy="140" r="3" fill="#e8a838"/>
+                <!-- Company name -->
+                <text x="150" y="160" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="9" font-weight="600" fill="#0a1628" letter-spacing="6" opacity="0.6">SOLUTIONS</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>6. Minimal Line</h3>
+            <p>Ultra-clean thin typography between hairlines — understated sophistication.</p>
+            <span class="tag tag-dark">MINIMAL</span>
+        </div>
+    </div>
+
+    <!-- ════════════════════════════════════════ -->
+    <!-- 7. RISING ARROW -->
+    <!-- ════════════════════════════════════════ -->
+    <div class="card">
+        <div class="preview bg-slate">
+            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="arrowGold" x1="0%" y1="100%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#d49a2e"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <linearGradient id="arrowBlue" x1="0%" y1="100%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#1a5fa8"/>
+                        <stop offset="100%" stop-color="#2e86de"/>
+                    </linearGradient>
+                </defs>
+                <!-- Rising arrow path behind text -->
+                <path d="M60 150 L140 70 L155 85 L155 60 L130 60 L140 70"
+                      fill="none" stroke="url(#arrowBlue)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <!-- Upward growth bars -->
+                <rect x="210" y="130" width="12" height="20" rx="2" fill="#2e86de" opacity="0.2"/>
+                <rect x="226" y="115" width="12" height="35" rx="2" fill="#2e86de" opacity="0.35"/>
+                <rect x="242" y="95" width="12" height="55" rx="2" fill="url(#arrowBlue)" opacity="0.5"/>
+                <!-- SSP -->
+                <text x="68" y="128" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="56" font-weight="800" fill="url(#arrowGold)" letter-spacing="2">SSP</text>
+                <!-- Tagline -->
+                <text x="68" y="152" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="8" fill="rgba(255,255,255,0.4)" letter-spacing="3.5">CAREER CONSULTING</text>
+                <!-- Underline accent -->
+                <rect x="68" y="135" width="80" height="2" rx="1" fill="url(#arrowGold)" opacity="0.4"/>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>7. Rising Arrow</h3>
+            <p>Upward trajectory with growth bars — symbolizing career advancement and ambition.</p>
+            <span class="tag tag-light">GROWTH</span>
+        </div>
+    </div>
+
+    <!-- ════════════════════════════════════════ -->
+    <!-- 8. SPLIT BLOCK -->
+    <!-- ════════════════════════════════════════ -->
+    <div class="card">
+        <div class="preview bg-warm">
+            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="splitGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/>
+                        <stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                </defs>
+                <!-- Block background -->
+                <rect x="60" y="40" width="180" height="120" rx="8" fill="rgba(232,168,56,0.06)"
+                      stroke="rgba(232,168,56,0.15)" stroke-width="1"/>
+                <!-- Vertical dividers -->
+                <line x1="120" y1="55" x2="120" y2="145" stroke="rgba(232,168,56,0.15)" stroke-width="1"/>
+                <line x1="180" y1="55" x2="180" y2="145" stroke="rgba(232,168,56,0.15)" stroke-width="1"/>
+                <!-- S -->
+                <text x="90" y="118" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="60" font-weight="800" fill="url(#splitGold)">S</text>
+                <!-- S -->
+                <text x="150" y="118" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="60" font-weight="800" fill="url(#splitGold)">S</text>
+                <!-- P -->
+                <text x="210" y="118" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="60" font-weight="800" fill="url(#splitGold)">P</text>
+                <!-- Bottom label -->
+                <rect x="105" y="160" width="90" height="22" rx="11" fill="rgba(232,168,56,0.1)"
+                      stroke="rgba(232,168,56,0.25)" stroke-width="1"/>
+                <text x="150" y="175" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif"
+                      font-size="8" font-weight="600" fill="#e8a838" letter-spacing="3">SOLUTIONS</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>8. Split Block</h3>
+            <p>Each letter in its own panel — structured, balanced, and distinctly corporate.</p>
+            <span class="tag tag-dark">CORPORATE</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
