@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSP Hex Overlap Collection — SSP Career Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;600;700&family=Chakra+Petch:wght@400;600;700&family=Share+Tech+Mono&family=Exo+2:wght@300;600;800;900&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Exo 2', system-ui, sans-serif;
+            background: #080c14; color: #fff; min-height: 100vh;
+        }
+        .back-home {
+            position: fixed; top: 1.25rem; left: 1.25rem; z-index: 100;
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            padding: 0.5rem 1.1rem; border-radius: 50px;
+            background: rgba(10,22,40,0.85); backdrop-filter: blur(8px);
+            color: #e8a838; text-decoration: none; font-size: 0.85rem; font-weight: 600;
+            border: 1px solid rgba(232,168,56,0.3); transition: all 0.3s;
+        }
+        .back-home:hover { background: rgba(232,168,56,0.15); border-color: #e8a838; }
+        .back-home svg { width: 16px; height: 16px; fill: #e8a838; }
+        header { text-align: center; padding: 3rem 2rem 1rem; }
+        header h1 { font-family: 'Orbitron', sans-serif; font-size: 1.8rem; font-weight: 700; letter-spacing: 3px; }
+        header p { color: rgba(255,255,255,0.45); margin-top: 0.5rem; max-width: 560px; margin-inline: auto; font-weight: 300; }
+
+        .section-label {
+            max-width: 1200px; margin: 2.5rem auto 0.5rem; padding: 0 2rem;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.65rem; font-weight: 700; letter-spacing: 4px;
+            text-transform: uppercase; color: #e8a838; opacity: 0.7;
+        }
+        .section-label span { display: inline-block; border-bottom: 1px solid rgba(232,168,56,0.3); padding-bottom: 0.3rem; }
+
+        .grid {
+            max-width: 1200px; margin: 1rem auto; padding: 0 2rem 2rem;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 2rem;
+        }
+        .grid:last-of-type { padding-bottom: 4rem; }
+        .card {
+            border-radius: 16px; overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.06);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 20px 50px rgba(0,0,0,0.4); }
+        .preview {
+            display: flex; align-items: center; justify-content: center;
+            padding: 2.5rem 2rem; min-height: 290px;
+        }
+        .preview svg { max-width: 360px; width: 100%; height: auto; }
+        .card-info {
+            padding: 1.25rem 1.5rem; background: rgba(255,255,255,0.03);
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+        .card-info h3 { font-family: 'Rajdhani', sans-serif; font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; letter-spacing: 0.5px; }
+        .card-info p { font-size: 0.85rem; color: rgba(255,255,255,0.4); line-height: 1.5; font-weight: 300; }
+        .tag {
+            display: inline-block; font-family: 'Orbitron', sans-serif; font-size: 0.55rem; padding: 0.25rem 0.7rem;
+            border-radius: 3px; margin-top: 0.5rem; font-weight: 700; letter-spacing: 1.5px;
+        }
+        .tag-a { background: rgba(232,168,56,0.12); color: #e8a838; border: 1px solid rgba(232,168,56,0.2); }
+        .tag-b { background: rgba(46,134,222,0.12); color: #5ba4e6; border: 1px solid rgba(46,134,222,0.2); }
+        .tag-c { background: rgba(255,255,255,0.06); color: rgba(255,255,255,0.5); border: 1px solid rgba(255,255,255,0.1); }
+
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.3rem; }
+        }
+    </style>
+</head>
+<body>
+<a href="index.html" class="back-home"><svg viewBox="0 0 24 24"><path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20v-2z"/></svg> Home</a>
+
+<header>
+    <h1>HEXAGON OVERLAP</h1>
+    <p>15 designs where every letter is shaped, clipped, and styled as a hexagon — geometric identity, no curves.</p>
+</header>
+
+<!-- ════════════════════════════════════════════════════ -->
+<!-- SECTION 1: HEXAGONAL LETTER STYLES                 -->
+<!-- ════════════════════════════════════════════════════ -->
+<div class="section-label"><span>I &mdash; Hexagonal Letter Styles</span></div>
+<div class="grid">
+
+    <!-- ═══ 1. HEX-CLIPPED LETTERS ═══ -->
+    <div class="card">
+        <div class="preview" style="background: linear-gradient(145deg, #0a1020, #0d1a30, #081018);">
+            <svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h1g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <linearGradient id="h1gd" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#d49a2e"/><stop offset="100%" stop-color="#e8a838"/>
+                    </linearGradient>
+                    <!-- Hex clip for each letter -->
+                    <clipPath id="h1clipS1"><polygon points="75,40 115,17 155,40 155,86 115,109 75,86"/></clipPath>
+                    <clipPath id="h1clipS2"><polygon points="135,40 175,17 215,40 215,86 175,109 135,86"/></clipPath>
+                    <clipPath id="h1clipP"><polygon points="195,40 235,17 275,40 275,86 235,109 195,86"/></clipPath>
+                </defs>
+                <!-- Hex outlines for each letter -->
+                <polygon points="75,40 115,17 155,40 155,86 115,109 75,86" fill="none" stroke="#2e86de" stroke-width="1" opacity="0.25"/>
+                <polygon points="135,40 175,17 215,40 215,86 175,109 135,86" fill="none" stroke="url(#h1gd)" stroke-width="1" opacity="0.4"/>
+                <polygon points="195,40 235,17 275,40 275,86 235,109 195,86" fill="none" stroke="url(#h1g)" stroke-width="1.5" opacity="0.6"/>
+                <!-- Letters clipped to hex shapes -->
+                <text clip-path="url(#h1clipS1)" x="82" y="98" font-family="'Orbitron',sans-serif" font-size="90" font-weight="900" fill="#2e86de" opacity="0.35">S</text>
+                <text clip-path="url(#h1clipS2)" x="142" y="98" font-family="'Orbitron',sans-serif" font-size="90" font-weight="900" fill="url(#h1gd)" opacity="0.65">S</text>
+                <text clip-path="url(#h1clipP)" x="202" y="98" font-family="'Orbitron',sans-serif" font-size="90" font-weight="900" fill="url(#h1g)">P</text>
+                <!-- Frame hex -->
+                <polygon points="180,130 180,130" fill="none"/>
+                <text x="180" y="155" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+                <!-- Outer frame -->
+                <polygon points="180,5 290,52 290,148 180,195 70,148 70,52" fill="none" stroke="url(#h1g)" stroke-width="1" opacity="0.1"/>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>1. Hex-Clipped Letters</h3>
+            <p>Each letter clipped into its own hexagonal mask — only the hex-shaped portion is visible.</p>
+            <span class="tag tag-a">CLIPPED</span>
+        </div>
+    </div>
+
+    <!-- ═══ 2. HONEYCOMB FILL ═══ -->
+    <div class="card">
+        <div class="preview" style="background: radial-gradient(ellipse at 50% 50%, #10192e, #060a14);">
+            <svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h2g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <!-- Honeycomb pattern -->
+                    <pattern id="honeycomb" x="0" y="0" width="20" height="17.32" patternUnits="userSpaceOnUse">
+                        <polygon points="10,0 20,5.77 20,11.55 10,17.32 0,11.55 0,5.77" fill="none" stroke="#e8a838" stroke-width="0.6" opacity="0.5"/>
+                    </pattern>
+                    <clipPath id="h2clipAll"><text x="55" y="130" font-family="'Chakra Petch',sans-serif" font-size="100" font-weight="700" letter-spacing="8">SSP</text></clipPath>
+                </defs>
+                <!-- Honeycomb pattern clipped to letter shapes -->
+                <rect clip-path="url(#h2clipAll)" x="0" y="0" width="360" height="240" fill="url(#honeycomb)"/>
+                <!-- Solid letters behind at low opacity -->
+                <text x="55" y="130" font-family="'Chakra Petch',sans-serif" font-size="100" font-weight="700" fill="url(#h2g)" opacity="0.08" letter-spacing="8">SSP</text>
+                <!-- Outer hex frame -->
+                <polygon points="180,15 280,55 280,150 180,190 80,150 80,55" fill="none" stroke="url(#h2g)" stroke-width="1" opacity="0.15"/>
+                <text x="180" y="215" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>2. Honeycomb Fill</h3>
+            <p>Letters filled with a repeating hexagonal honeycomb grid pattern — organic geometry.</p>
+            <span class="tag tag-b">PATTERN</span>
+        </div>
+    </div>
+
+    <!-- ═══ 3. FACETED PRISM ═══ -->
+    <div class="card">
+        <div class="preview" style="background: linear-gradient(160deg, #0c1525, #14253f, #0a1020);">
+            <svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h3g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <linearGradient id="h3gd" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#d49a2e"/><stop offset="100%" stop-color="#e8a838"/>
+                    </linearGradient>
+                    <!-- Individual hex backgrounds per letter -->
+                    <linearGradient id="h3face1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#1a3a5c"/><stop offset="100%" stop-color="#0d1e35"/>
+                    </linearGradient>
+                    <linearGradient id="h3face2" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#1a3050"/><stop offset="100%" stop-color="#0d1828"/>
+                    </linearGradient>
+                </defs>
+                <!-- Hex face for S1 -->
+                <polygon points="90,35 130,12 170,35 170,82 130,105 90,82" fill="url(#h3face1)" stroke="#2e86de" stroke-width="0.8" opacity="0.6"/>
+                <!-- Inner facet lines -->
+                <line x1="130" y1="12" x2="130" y2="105" stroke="#2e86de" stroke-width="0.3" opacity="0.2"/>
+                <line x1="90" y1="35" x2="170" y2="82" stroke="#2e86de" stroke-width="0.3" opacity="0.15"/>
+                <line x1="90" y1="82" x2="170" y2="35" stroke="#2e86de" stroke-width="0.3" opacity="0.15"/>
+                <text x="105" y="80" font-family="'Exo 2',sans-serif" font-size="68" font-weight="800" fill="#2e86de" opacity="0.5">S</text>
+                <!-- Hex face for S2 -->
+                <polygon points="140,35 180,12 220,35 220,82 180,105 140,82" fill="url(#h3face2)" stroke="url(#h3gd)" stroke-width="0.8" opacity="0.7"/>
+                <line x1="180" y1="12" x2="180" y2="105" stroke="#e8a838" stroke-width="0.3" opacity="0.15"/>
+                <line x1="140" y1="35" x2="220" y2="82" stroke="#e8a838" stroke-width="0.3" opacity="0.1"/>
+                <text x="155" y="80" font-family="'Exo 2',sans-serif" font-size="68" font-weight="800" fill="url(#h3gd)" opacity="0.7">S</text>
+                <!-- Hex face for P -->
+                <polygon points="195,35 235,12 275,35 275,82 235,105 195,82" fill="url(#h3face2)" stroke="url(#h3g)" stroke-width="1.2"/>
+                <line x1="235" y1="12" x2="235" y2="105" stroke="#e8a838" stroke-width="0.3" opacity="0.2"/>
+                <line x1="195" y1="35" x2="275" y2="82" stroke="#e8a838" stroke-width="0.3" opacity="0.15"/>
+                <text x="210" y="80" font-family="'Exo 2',sans-serif" font-size="68" font-weight="800" fill="url(#h3g)">P</text>
+                <!-- Bottom accent -->
+                <rect x="100" y="115" width="165" height="1.5" rx="0.75" fill="url(#h3g)" opacity="0.3"/>
+                <text x="180" y="150" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>3. Faceted Prism</h3>
+            <p>Each letter sits on a faceted hexagonal face with internal refraction lines — crystalline, premium.</p>
+            <span class="tag tag-a">CRYSTAL</span>
+        </div>
+    </div>
+
+    <!-- ═══ 4. HEX OUTLINE LETTERS ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #06090f;">
+            <svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h4g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <!-- Hex clip paths -->
+                    <clipPath id="h4c1"><polygon points="80,35 120,12 160,35 160,88 120,111 80,88"/></clipPath>
+                    <clipPath id="h4c2"><polygon points="140,35 180,12 220,35 220,88 180,111 140,88"/></clipPath>
+                    <clipPath id="h4c3"><polygon points="200,35 240,12 280,35 280,88 240,111 200,88"/></clipPath>
+                </defs>
+                <!-- Hex shapes with only stroked letter outlines -->
+                <polygon points="80,35 120,12 160,35 160,88 120,111 80,88" fill="rgba(46,134,222,0.04)" stroke="#2e86de" stroke-width="0.6" opacity="0.4"/>
+                <text clip-path="url(#h4c1)" x="87" y="95" font-family="'Rajdhani',sans-serif" font-size="85" font-weight="700" fill="none" stroke="#2e86de" stroke-width="1.2" opacity="0.4">S</text>
+
+                <polygon points="140,35 180,12 220,35 220,88 180,111 140,88" fill="rgba(232,168,56,0.03)" stroke="#e8a838" stroke-width="0.6" opacity="0.5"/>
+                <text clip-path="url(#h4c2)" x="147" y="95" font-family="'Rajdhani',sans-serif" font-size="85" font-weight="700" fill="none" stroke="url(#h4g)" stroke-width="1.2" opacity="0.6">S</text>
+
+                <polygon points="200,35 240,12 280,35 280,88 240,111 200,88" fill="rgba(232,168,56,0.04)" stroke="url(#h4g)" stroke-width="1"/>
+                <text clip-path="url(#h4c3)" x="207" y="95" font-family="'Rajdhani',sans-serif" font-size="85" font-weight="700" fill="none" stroke="url(#h4g)" stroke-width="1.8">P</text>
+
+                <!-- Connecting baseline -->
+                <line x1="80" y1="111" x2="280" y2="111" stroke="url(#h4g)" stroke-width="0.5" opacity="0.15"/>
+                <text x="180" y="150" text-anchor="middle" font-family="'Share Tech Mono',monospace" font-size="8" fill="rgba(255,255,255,0.25)" letter-spacing="4">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>4. Hex Outline Letters</h3>
+            <p>Stroked-only letter outlines clipped inside hexagons — hollow, technical, engineering blueprint.</p>
+            <span class="tag tag-c">BLUEPRINT</span>
+        </div>
+    </div>
+
+    <!-- ═══ 5. NEON HEX GLOW ═══ -->
+    <div class="card">
+        <div class="preview" style="background: radial-gradient(ellipse at 50% 45%, #0c1428, #040810);">
+            <svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h5g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <filter id="h5glow">
+                        <feGaussianBlur stdDeviation="3" result="blur"/>
+                        <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                    </filter>
+                    <filter id="h5glowB">
+                        <feGaussianBlur stdDeviation="4" result="blur"/>
+                        <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                    </filter>
+                    <clipPath id="h5c1"><polygon points="75,38 115,15 155,38 155,88 115,111 75,88"/></clipPath>
+                    <clipPath id="h5c2"><polygon points="140,38 180,15 220,38 220,88 180,111 140,88"/></clipPath>
+                    <clipPath id="h5c3"><polygon points="205,38 245,15 285,38 285,88 245,111 205,88"/></clipPath>
+                </defs>
+                <!-- Glowing hex outlines -->
+                <polygon points="75,38 115,15 155,38 155,88 115,111 75,88" fill="none" stroke="#2e86de" stroke-width="1.5" opacity="0.5" filter="url(#h5glow)"/>
+                <polygon points="140,38 180,15 220,38 220,88 180,111 140,88" fill="none" stroke="#e8a838" stroke-width="1.5" opacity="0.5" filter="url(#h5glow)"/>
+                <polygon points="205,38 245,15 285,38 285,88 245,111 205,88" fill="none" stroke="#e8a838" stroke-width="2" opacity="0.7" filter="url(#h5glowB)"/>
+                <!-- Hex-clipped glowing letters -->
+                <text clip-path="url(#h5c1)" x="84" y="95" font-family="'Orbitron',sans-serif" font-size="78" font-weight="900" fill="#2e86de" opacity="0.5" filter="url(#h5glow)">S</text>
+                <text clip-path="url(#h5c2)" x="149" y="95" font-family="'Orbitron',sans-serif" font-size="78" font-weight="900" fill="url(#h5g)" opacity="0.65" filter="url(#h5glow)">S</text>
+                <text clip-path="url(#h5c3)" x="214" y="95" font-family="'Orbitron',sans-serif" font-size="78" font-weight="900" fill="url(#h5g)" filter="url(#h5glowB)">P</text>
+                <text x="180" y="150" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(232,168,56,0.4)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>5. Neon Hex Glow</h3>
+            <p>Glowing hex-shaped letters with neon bloom — electric, vivid, night-sign energy.</p>
+            <span class="tag tag-b">NEON</span>
+        </div>
+    </div>
+
+</div>
+
+<!-- ════════════════════════════════════════════════════ -->
+<!-- SECTION 2: LETTER TREATMENTS IN HEXAGON            -->
+<!-- ════════════════════════════════════════════════════ -->
+<div class="section-label"><span>II &mdash; Letter Treatments in Hexagon</span></div>
+<div class="grid">
+
+    <!-- ═══ 6. HEX MOSAIC LETTERS ═══ -->
+    <div class="card">
+        <div class="preview" style="background: linear-gradient(135deg, #080e1a, #0e1828);">
+            <svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h6g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <pattern id="hexmosaic" x="0" y="0" width="14" height="12.12" patternUnits="userSpaceOnUse">
+                        <polygon points="7,0 14,4.04 14,8.08 7,12.12 0,8.08 0,4.04" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                    </pattern>
+                    <clipPath id="h6frame"><polygon points="180,12 278,58 278,148 180,194 82,148 82,58"/></clipPath>
+                </defs>
+                <!-- Outer hex frame -->
+                <polygon points="180,12 278,58 278,148 180,194 82,148 82,58" fill="none" stroke="url(#h6g)" stroke-width="1.5" opacity="0.3"/>
+                <!-- Background hex grid inside frame -->
+                <rect clip-path="url(#h6frame)" x="0" y="0" width="360" height="240" fill="none" stroke="rgba(46,134,222,0.08)" stroke-width="0.5">
+                </rect>
+                <!-- Hex-shaped letters with solid fills, overlapping -->
+                <text x="108" y="140" font-family="'Chakra Petch',sans-serif" font-size="95" font-weight="700" fill="#2e86de" opacity="0.25">S</text>
+                <text x="143" y="140" font-family="'Chakra Petch',sans-serif" font-size="95" font-weight="700" fill="url(#h6g)" opacity="0.55">S</text>
+                <text x="185" y="140" font-family="'Chakra Petch',sans-serif" font-size="95" font-weight="700" fill="url(#h6g)" opacity="0.9">P</text>
+                <!-- Small hex accents at letter bases -->
+                <polygon points="130,148 137,144 144,148 144,156 137,160 130,156" fill="url(#h6g)" opacity="0.15"/>
+                <polygon points="168,148 175,144 182,148 182,156 175,160 168,156" fill="url(#h6g)" opacity="0.25"/>
+                <polygon points="210,148 217,144 224,148 224,156 217,160 210,156" fill="url(#h6g)" opacity="0.35"/>
+                <text x="180" y="215" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>6. Hex Mosaic</h3>
+            <p>Angular font letters inside a hex frame with small hexagonal accent tiles at their base.</p>
+            <span class="tag tag-a">MOSAIC</span>
+        </div>
+    </div>
+
+    <!-- ═══ 7. STACKED HEX LETTERS ═══ -->
+    <div class="card">
+        <div class="preview" style="background: linear-gradient(180deg, #060c18, #0e1a2e);">
+            <svg viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h7g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <clipPath id="h7c1"><polygon points="155,15 195,8 235,15 235,55 195,62 155,55"/></clipPath>
+                    <clipPath id="h7c2"><polygon points="145,78 185,71 225,78 225,118 185,125 145,118"/></clipPath>
+                    <clipPath id="h7c3"><polygon points="135,141 175,134 215,141 215,181 175,188 135,181"/></clipPath>
+                </defs>
+                <!-- Vertical stack of hex-clipped letters -->
+                <polygon points="155,15 195,8 235,15 235,55 195,62 155,55" fill="rgba(46,134,222,0.04)" stroke="#2e86de" stroke-width="0.8" opacity="0.4"/>
+                <text clip-path="url(#h7c1)" x="165" y="55" font-family="'Exo 2',sans-serif" font-size="55" font-weight="800" fill="#2e86de" opacity="0.4" text-anchor="middle" x="195">S</text>
+
+                <polygon points="145,78 185,71 225,78 225,118 185,125 145,118" fill="rgba(232,168,56,0.03)" stroke="url(#h7g)" stroke-width="0.8" opacity="0.6"/>
+                <text clip-path="url(#h7c2)" x="185" y="118" font-family="'Exo 2',sans-serif" font-size="55" font-weight="800" fill="url(#h7g)" opacity="0.65" text-anchor="middle">S</text>
+
+                <polygon points="135,141 175,134 215,141 215,181 175,188 135,181" fill="rgba(232,168,56,0.04)" stroke="url(#h7g)" stroke-width="1.2"/>
+                <text clip-path="url(#h7c3)" x="175" y="181" font-family="'Exo 2',sans-serif" font-size="55" font-weight="800" fill="url(#h7g)" text-anchor="middle">P</text>
+
+                <!-- Vertical connecting line -->
+                <line x1="185" y1="62" x2="185" y2="71" stroke="rgba(46,134,222,0.2)" stroke-width="0.5" stroke-dasharray="2,2"/>
+                <line x1="185" y1="125" x2="185" y2="134" stroke="rgba(232,168,56,0.2)" stroke-width="0.5" stroke-dasharray="2,2"/>
+                <text x="180" y="220" text-anchor="middle" font-family="'Share Tech Mono',monospace" font-size="7.5" fill="rgba(255,255,255,0.3)" letter-spacing="4">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>7. Stacked Hex Letters</h3>
+            <p>Wide hexagons stacked vertically, each clipping a letter — totem structure, layered hierarchy.</p>
+            <span class="tag tag-c">STACKED</span>
+        </div>
+    </div>
+
+    <!-- ═══ 8. DIAGONAL HEX SLIDE ═══ -->
+    <div class="card">
+        <div class="preview" style="background: linear-gradient(135deg, #0a0f1e, #142238);">
+            <svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h8g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <clipPath id="h8c1"><polygon points="60,45 100,22 140,45 140,95 100,118 60,95"/></clipPath>
+                    <clipPath id="h8c2"><polygon points="130,65 170,42 210,65 210,115 170,138 130,115"/></clipPath>
+                    <clipPath id="h8c3"><polygon points="200,85 240,62 280,85 280,135 240,158 200,135"/></clipPath>
+                </defs>
+                <!-- Diagonal accent line -->
+                <line x1="60" y1="118" x2="280" y2="62" stroke="url(#h8g)" stroke-width="0.5" opacity="0.1"/>
+                <!-- Cascading hex-clipped letters -->
+                <polygon points="60,45 100,22 140,45 140,95 100,118 60,95" fill="rgba(46,134,222,0.04)" stroke="#2e86de" stroke-width="0.8" opacity="0.35"/>
+                <text clip-path="url(#h8c1)" x="70" y="100" font-family="'Rajdhani',sans-serif" font-size="78" font-weight="700" fill="#2e86de" opacity="0.35">S</text>
+
+                <polygon points="130,65 170,42 210,65 210,115 170,138 130,115" fill="rgba(232,168,56,0.03)" stroke="url(#h8g)" stroke-width="0.8" opacity="0.5"/>
+                <text clip-path="url(#h8c2)" x="140" y="120" font-family="'Rajdhani',sans-serif" font-size="78" font-weight="700" fill="url(#h8g)" opacity="0.6">S</text>
+
+                <polygon points="200,85 240,62 280,85 280,135 240,158 200,135" fill="rgba(232,168,56,0.04)" stroke="url(#h8g)" stroke-width="1.2"/>
+                <text clip-path="url(#h8c3)" x="210" y="140" font-family="'Rajdhani',sans-serif" font-size="78" font-weight="700" fill="url(#h8g)">P</text>
+
+                <text x="180" y="195" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>8. Diagonal Hex Slide</h3>
+            <p>Hex-clipped letters cascading diagonally — momentum, sliding progression, forward drive.</p>
+            <span class="tag tag-a">MOMENTUM</span>
+        </div>
+    </div>
+
+    <!-- ═══ 9. HEX SEAL MONOGRAM ═══ -->
+    <div class="card">
+        <div class="preview" style="background: radial-gradient(ellipse at 50% 45%, #101828, #060a12);">
+            <svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h9g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <clipPath id="h9frame"><polygon points="180,15 270,55 270,145 180,185 90,145 90,55"/></clipPath>
+                    <clipPath id="h9inner"><polygon points="180,28 258,62 258,138 180,172 102,138 102,62"/></clipPath>
+                </defs>
+                <!-- Double hex frame -->
+                <polygon points="180,15 270,55 270,145 180,185 90,145 90,55" fill="none" stroke="url(#h9g)" stroke-width="2" opacity="0.5"/>
+                <polygon points="180,22 264,59 264,141 180,178 96,141 96,59" fill="none" stroke="url(#h9g)" stroke-width="0.5" opacity="0.2"/>
+                <polygon points="180,28 258,62 258,138 180,172 102,138 102,62" fill="rgba(232,168,56,0.02)" stroke="rgba(46,134,222,0.1)" stroke-width="0.5"/>
+                <!-- Large watermark S clipped to inner hex -->
+                <text clip-path="url(#h9inner)" x="130" y="155" font-family="'Orbitron',sans-serif" font-size="150" font-weight="900" fill="#2e86de" opacity="0.06">S</text>
+                <!-- Overlapping hex-shaped letters -->
+                <text clip-path="url(#h9inner)" x="112" y="130" font-family="'Orbitron',sans-serif" font-size="80" font-weight="900" fill="#2e86de" opacity="0.25">S</text>
+                <text clip-path="url(#h9inner)" x="148" y="130" font-family="'Orbitron',sans-serif" font-size="80" font-weight="900" fill="url(#h9g)" opacity="0.55">S</text>
+                <text clip-path="url(#h9inner)" x="190" y="130" font-family="'Orbitron',sans-serif" font-size="80" font-weight="900" fill="url(#h9g)">P</text>
+                <!-- Accent line -->
+                <rect x="115" y="140" width="130" height="1.5" rx="0.75" fill="url(#h9g)" opacity="0.3"/>
+                <text x="180" y="210" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>9. Hex Seal</h3>
+            <p>Double hex frame containing overlapping letters — official seal, authority mark, badge.</p>
+            <span class="tag tag-a">AUTHORITY</span>
+        </div>
+    </div>
+
+    <!-- ═══ 10. GLITCH HEX SHATTER ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #040810;">
+            <svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h10g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <clipPath id="h10c1"><polygon points="75,38 115,15 155,38 155,88 115,111 75,88"/></clipPath>
+                    <clipPath id="h10c2"><polygon points="140,38 180,15 220,38 220,88 180,111 140,88"/></clipPath>
+                    <clipPath id="h10c3"><polygon points="205,38 245,15 285,38 285,88 245,111 205,88"/></clipPath>
+                </defs>
+                <!-- Main hex outlines -->
+                <polygon points="75,38 115,15 155,38 155,88 115,111 75,88" fill="none" stroke="url(#h10g)" stroke-width="1" opacity="0.4"/>
+                <polygon points="140,38 180,15 220,38 220,88 180,111 140,88" fill="none" stroke="url(#h10g)" stroke-width="1" opacity="0.5"/>
+                <polygon points="205,38 245,15 285,38 285,88 245,111 205,88" fill="none" stroke="url(#h10g)" stroke-width="1.5" opacity="0.7"/>
+                <!-- Glitch-shifted hex copies -->
+                <polygon points="78,36 118,13 158,36 158,86 118,109 78,86" fill="none" stroke="#ff3366" stroke-width="0.5" opacity="0.2"/>
+                <polygon points="143,36 183,13 223,36 223,86 183,109 143,86" fill="none" stroke="#ff3366" stroke-width="0.5" opacity="0.2"/>
+                <polygon points="208,36 248,13 288,36 288,86 248,109 208,86" fill="none" stroke="#ff3366" stroke-width="0.5" opacity="0.2"/>
+                <polygon points="72,40 112,17 152,40 152,90 112,113 72,90" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0.15"/>
+                <polygon points="137,40 177,17 217,40 217,90 177,113 137,90" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0.15"/>
+                <polygon points="202,40 242,17 282,40 282,90 242,113 202,90" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0.15"/>
+                <!-- Hex-clipped letters -->
+                <text clip-path="url(#h10c1)" x="84" y="95" font-family="'Chakra Petch',sans-serif" font-size="80" font-weight="700" fill="#2e86de" opacity="0.35">S</text>
+                <text clip-path="url(#h10c2)" x="149" y="95" font-family="'Chakra Petch',sans-serif" font-size="80" font-weight="700" fill="url(#h10g)" opacity="0.6">S</text>
+                <text clip-path="url(#h10c3)" x="214" y="95" font-family="'Chakra Petch',sans-serif" font-size="80" font-weight="700" fill="url(#h10g)">P</text>
+                <!-- Scan lines -->
+                <rect x="75" y="55" width="210" height="0.8" fill="#ff3366" opacity="0.08"/>
+                <rect x="75" y="75" width="210" height="0.8" fill="#00ccff" opacity="0.06"/>
+                <rect x="75" y="95" width="210" height="0.5" fill="#ff3366" opacity="0.05"/>
+                <text x="180" y="150" text-anchor="middle" font-family="'Share Tech Mono',monospace" font-size="7.5" fill="rgba(255,255,255,0.25)" letter-spacing="4">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>10. Glitch Hex Shatter</h3>
+            <p>RGB-shifted hex-shaped letters with chromatic scatter and scan lines — digital corruption.</p>
+            <span class="tag tag-b">GLITCH</span>
+        </div>
+    </div>
+
+</div>
+
+<!-- ════════════════════════════════════════════════════ -->
+<!-- SECTION 3: INDIVIDUAL HEX-SHAPED LETTERS           -->
+<!-- ════════════════════════════════════════════════════ -->
+<div class="section-label"><span>III &mdash; Per-Letter Hexagon Shapes</span></div>
+<div class="grid">
+
+    <!-- ═══ 11. TRI-HEX CLIPPED ═══ -->
+    <div class="card">
+        <div class="preview" style="background: linear-gradient(135deg, #0a1020, #0e1830);">
+            <svg viewBox="0 0 390 220" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h11g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <linearGradient id="h11gd" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#d49a2e"/><stop offset="100%" stop-color="#e8a838"/>
+                    </linearGradient>
+                    <clipPath id="h11a"><polygon points="75,25 125,54 125,112 75,141 25,112 25,54"/></clipPath>
+                    <clipPath id="h11b"><polygon points="195,25 245,54 245,112 195,141 145,112 145,54"/></clipPath>
+                    <clipPath id="h11c"><polygon points="315,25 365,54 365,112 315,141 265,112 265,54"/></clipPath>
+                </defs>
+                <!-- Large standalone hexagons with clipped letters -->
+                <polygon points="75,25 125,54 125,112 75,141 25,112 25,54" fill="rgba(46,134,222,0.05)" stroke="#2e86de" stroke-width="1.5" opacity="0.5"/>
+                <text clip-path="url(#h11a)" x="42" y="115" font-family="'Orbitron',sans-serif" font-size="95" font-weight="900" fill="#2e86de" opacity="0.45">S</text>
+
+                <polygon points="195,25 245,54 245,112 195,141 145,112 145,54" fill="rgba(232,168,56,0.03)" stroke="url(#h11gd)" stroke-width="1.5" opacity="0.65"/>
+                <text clip-path="url(#h11b)" x="162" y="115" font-family="'Orbitron',sans-serif" font-size="95" font-weight="900" fill="url(#h11gd)" opacity="0.7">S</text>
+
+                <polygon points="315,25 365,54 365,112 315,141 265,112 265,54" fill="rgba(232,168,56,0.04)" stroke="url(#h11g)" stroke-width="2"/>
+                <text clip-path="url(#h11c)" x="282" y="115" font-family="'Orbitron',sans-serif" font-size="95" font-weight="900" fill="url(#h11g)">P</text>
+
+                <text x="195" y="178" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>11. Tri-Hex Clipped</h3>
+            <p>Three large standalone hexagons, each masking a single letter — clean separation, bold identity.</p>
+            <span class="tag tag-a">MODULAR</span>
+        </div>
+    </div>
+
+    <!-- ═══ 12. HEX CHAIN OVERLAP ═══ -->
+    <div class="card">
+        <div class="preview" style="background: linear-gradient(135deg, #060a14, #10192e);">
+            <svg viewBox="0 0 390 220" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h12g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <linearGradient id="h12gd" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#d49a2e"/><stop offset="100%" stop-color="#e8a838"/>
+                    </linearGradient>
+                    <clipPath id="h12a"><polygon points="105,25 155,54 155,112 105,141 55,112 55,54"/></clipPath>
+                    <clipPath id="h12b"><polygon points="195,25 245,54 245,112 195,141 145,112 145,54"/></clipPath>
+                    <clipPath id="h12c"><polygon points="285,25 335,54 335,112 285,141 235,112 235,54"/></clipPath>
+                </defs>
+                <!-- Overlapping hex chain -->
+                <polygon points="105,25 155,54 155,112 105,141 55,112 55,54" fill="rgba(46,134,222,0.05)" stroke="#2e86de" stroke-width="1" opacity="0.4"/>
+                <text clip-path="url(#h12a)" x="72" y="115" font-family="'Chakra Petch',sans-serif" font-size="90" font-weight="700" fill="#2e86de" opacity="0.4">S</text>
+
+                <polygon points="195,25 245,54 245,112 195,141 145,112 145,54" fill="rgba(232,168,56,0.03)" stroke="url(#h12gd)" stroke-width="1" opacity="0.55"/>
+                <text clip-path="url(#h12b)" x="162" y="115" font-family="'Chakra Petch',sans-serif" font-size="90" font-weight="700" fill="url(#h12gd)" opacity="0.6">S</text>
+
+                <polygon points="285,25 335,54 335,112 285,141 235,112 235,54" fill="rgba(232,168,56,0.04)" stroke="url(#h12g)" stroke-width="1.5"/>
+                <text clip-path="url(#h12c)" x="252" y="115" font-family="'Chakra Petch',sans-serif" font-size="90" font-weight="700" fill="url(#h12g)">P</text>
+
+                <!-- Overlap zone highlights -->
+                <line x1="145" y1="54" x2="145" y2="112" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+                <line x1="235" y1="54" x2="235" y2="112" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+                <text x="195" y="178" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>12. Hex Chain Overlap</h3>
+            <p>Three overlapping hexagons with clipped letters — each cell linked, shared boundaries.</p>
+            <span class="tag tag-b">LINKED</span>
+        </div>
+    </div>
+
+    <!-- ═══ 13. STAGGERED HEX LETTERS ═══ -->
+    <div class="card">
+        <div class="preview" style="background: linear-gradient(160deg, #0c1525, #081018);">
+            <svg viewBox="0 0 390 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h13g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <linearGradient id="h13gd" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#d49a2e"/><stop offset="100%" stop-color="#e8a838"/>
+                    </linearGradient>
+                    <clipPath id="h13a"><polygon points="85,15 130,41 130,93 85,119 40,93 40,41"/></clipPath>
+                    <clipPath id="h13b"><polygon points="195,55 240,81 240,133 195,159 150,133 150,81"/></clipPath>
+                    <clipPath id="h13c"><polygon points="305,95 350,121 350,173 305,199 260,173 260,121"/></clipPath>
+                </defs>
+                <!-- Staggered diagonal arrangement -->
+                <polygon points="85,15 130,41 130,93 85,119 40,93 40,41" fill="rgba(46,134,222,0.04)" stroke="#2e86de" stroke-width="1" opacity="0.4"/>
+                <text clip-path="url(#h13a)" x="52" y="95" font-family="'Exo 2',sans-serif" font-size="80" font-weight="800" fill="#2e86de" opacity="0.4">S</text>
+
+                <polygon points="195,55 240,81 240,133 195,159 150,133 150,81" fill="rgba(232,168,56,0.03)" stroke="url(#h13gd)" stroke-width="1" opacity="0.6"/>
+                <text clip-path="url(#h13b)" x="162" y="135" font-family="'Exo 2',sans-serif" font-size="80" font-weight="800" fill="url(#h13gd)" opacity="0.65">S</text>
+
+                <polygon points="305,95 350,121 350,173 305,199 260,173 260,121" fill="rgba(232,168,56,0.04)" stroke="url(#h13g)" stroke-width="1.5"/>
+                <text clip-path="url(#h13c)" x="272" y="175" font-family="'Exo 2',sans-serif" font-size="80" font-weight="800" fill="url(#h13g)">P</text>
+
+                <!-- Connecting dashes -->
+                <line x1="130" y1="67" x2="150" y2="107" stroke="rgba(46,134,222,0.15)" stroke-width="0.8" stroke-dasharray="4,4"/>
+                <line x1="240" y1="107" x2="260" y2="147" stroke="rgba(232,168,56,0.15)" stroke-width="0.8" stroke-dasharray="4,4"/>
+                <text x="195" y="228" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>13. Staggered Hex</h3>
+            <p>Hex-clipped letters in a diagonal cascade — each letter stepping forward and down.</p>
+            <span class="tag tag-a">CASCADE</span>
+        </div>
+    </div>
+
+    <!-- ═══ 14. SCALING HEX LETTERS ═══ -->
+    <div class="card">
+        <div class="preview" style="background: #080c14;">
+            <svg viewBox="0 0 390 220" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h14g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <clipPath id="h14a"><polygon points="55,60 80,46 105,60 105,88 80,102 55,88"/></clipPath>
+                    <clipPath id="h14b"><polygon points="140,45 175,25 210,45 210,85 175,105 140,85"/></clipPath>
+                    <clipPath id="h14c"><polygon points="240,25 290,54 290,112 240,141 190,112 190,54"/></clipPath>
+                </defs>
+                <!-- Small hex — S -->
+                <polygon points="55,60 80,46 105,60 105,88 80,102 55,88" fill="rgba(46,134,222,0.05)" stroke="#2e86de" stroke-width="1" opacity="0.45"/>
+                <text clip-path="url(#h14a)" x="57" y="95" font-family="'Rajdhani',sans-serif" font-size="48" font-weight="700" fill="#2e86de" opacity="0.45">S</text>
+
+                <!-- Medium hex — S -->
+                <polygon points="140,45 175,25 210,45 210,85 175,105 140,85" fill="rgba(232,168,56,0.03)" stroke="url(#h14g)" stroke-width="1" opacity="0.6"/>
+                <text clip-path="url(#h14b)" x="148" y="90" font-family="'Rajdhani',sans-serif" font-size="62" font-weight="700" fill="url(#h14g)" opacity="0.65">S</text>
+
+                <!-- Large hex — P -->
+                <polygon points="240,25 290,54 290,112 240,141 190,112 190,54" fill="rgba(232,168,56,0.04)" stroke="url(#h14g)" stroke-width="1.5"/>
+                <text clip-path="url(#h14c)" x="205" y="115" font-family="'Rajdhani',sans-serif" font-size="85" font-weight="700" fill="url(#h14g)">P</text>
+
+                <!-- Growth arrow -->
+                <line x1="40" y1="145" x2="305" y2="145" stroke="rgba(232,168,56,0.12)" stroke-width="0.8"/>
+                <polygon points="305,145 297,141 297,149" fill="#e8a838" opacity="0.25"/>
+                <text x="195" y="178" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>14. Scaling Hex</h3>
+            <p>Small to large hex-clipped letters with a growth arrow — evolution, scaling up, trajectory.</p>
+            <span class="tag tag-a">GROWTH</span>
+        </div>
+    </div>
+
+    <!-- ═══ 15. HEX MATRIX ═══ -->
+    <div class="card">
+        <div class="preview" style="background: radial-gradient(ellipse at 50% 50%, #0c1525, #040810);">
+            <svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="h15g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#e8a838"/><stop offset="100%" stop-color="#f0c060"/>
+                    </linearGradient>
+                    <linearGradient id="h15gd" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#d49a2e"/><stop offset="100%" stop-color="#e8a838"/>
+                    </linearGradient>
+                    <clipPath id="h15frame"><polygon points="180,8 280,55 280,150 180,197 80,150 80,55"/></clipPath>
+                    <!-- Individual letter hex clips inside the big hex -->
+                    <clipPath id="h15a"><polygon points="120,60 150,42 180,60 180,98 150,116 120,98"/></clipPath>
+                    <clipPath id="h15b"><polygon points="150,60 180,42 210,60 210,98 180,116 150,98"/></clipPath>
+                    <clipPath id="h15c"><polygon points="180,60 210,42 240,60 240,98 210,116 180,98"/></clipPath>
+                </defs>
+                <!-- Outer containing hex -->
+                <polygon points="180,8 280,55 280,150 180,197 80,150 80,55" fill="none" stroke="url(#h15g)" stroke-width="1.5" opacity="0.25"/>
+                <polygon points="180,18 272,60 272,145 180,187 88,145 88,60" fill="none" stroke="rgba(46,134,222,0.08)" stroke-width="0.5"/>
+                <!-- Background small hex grid -->
+                <polygon points="120,60 150,42 180,60 180,98 150,116 120,98" fill="rgba(46,134,222,0.04)" stroke="#2e86de" stroke-width="0.6" opacity="0.3"/>
+                <polygon points="150,60 180,42 210,60 210,98 180,116 150,98" fill="rgba(232,168,56,0.03)" stroke="url(#h15gd)" stroke-width="0.6" opacity="0.4"/>
+                <polygon points="180,60 210,42 240,60 240,98 210,116 180,98" fill="rgba(232,168,56,0.04)" stroke="url(#h15g)" stroke-width="0.8" opacity="0.5"/>
+                <!-- Row 2 hex cells (smaller, decorative) -->
+                <polygon points="135,98 150,89 165,98 165,116 150,125 135,116" fill="none" stroke="rgba(46,134,222,0.08)" stroke-width="0.4"/>
+                <polygon points="165,98 180,89 195,98 195,116 180,125 165,116" fill="none" stroke="rgba(232,168,56,0.08)" stroke-width="0.4"/>
+                <polygon points="195,98 210,89 225,98 225,116 210,125 195,116" fill="none" stroke="rgba(232,168,56,0.08)" stroke-width="0.4"/>
+                <!-- Row 0 hex cells (smaller, decorative) -->
+                <polygon points="135,42 150,33 165,42 165,60 150,69 135,60" fill="none" stroke="rgba(46,134,222,0.06)" stroke-width="0.4"/>
+                <polygon points="165,42 180,33 195,42 195,60 180,69 165,60" fill="none" stroke="rgba(232,168,56,0.06)" stroke-width="0.4"/>
+                <polygon points="195,42 210,33 225,42 225,60 210,69 195,60" fill="none" stroke="rgba(232,168,56,0.06)" stroke-width="0.4"/>
+                <!-- Hex-clipped letters in the main row -->
+                <text clip-path="url(#h15a)" x="125" y="98" font-family="'Orbitron',sans-serif" font-size="60" font-weight="900" fill="#2e86de" opacity="0.4">S</text>
+                <text clip-path="url(#h15b)" x="155" y="98" font-family="'Orbitron',sans-serif" font-size="60" font-weight="900" fill="url(#h15gd)" opacity="0.65">S</text>
+                <text clip-path="url(#h15c)" x="185" y="98" font-family="'Orbitron',sans-serif" font-size="60" font-weight="900" fill="url(#h15g)">P</text>
+                <text x="180" y="220" text-anchor="middle" font-family="'Orbitron',sans-serif" font-size="7" fill="rgba(255,255,255,0.3)" letter-spacing="5">SSP Career Services</text>
+            </svg>
+        </div>
+        <div class="card-info">
+            <h3>15. Hex Matrix</h3>
+            <p>A honeycomb grid inside a large hex — three cells hold hex-clipped letters surrounded by empty cells.</p>
+            <span class="tag tag-b">MATRIX</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
